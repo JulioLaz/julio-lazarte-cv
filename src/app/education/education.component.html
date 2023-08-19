@@ -1,0 +1,32 @@
+    <div class="head_title">
+      <i class="fa_color fa fa-solid fa-graduation-cap"></i>
+      <h2 class="title-with-shadow">Education</h2>
+    </div>
+    <div class="card-carousel main_title">
+      <div class="line mb-2"></div>
+
+      <div class="card card_exp"  *ngFor="let item of data_edu">
+        <div class="card-body card_body">
+          <img src="{{item.imge}}" class="card-img-top m-3" alt="..." style="width: 30%;">
+          <div class="" style="width: 68%;padding: .5rem">
+            <div class="date_div">
+              <span class="date">{{item.starte}} - {{item.ende}}</span>
+              <span class="date">{{item.citye}}</span>
+            </div>
+
+            <h5 class="card-title text-center mt-2">{{item.schoole}}</h5>
+            <div class="gradient-line"></div>
+            <h6 class="card-subtitle mb-2 mt-3 text-center">{{item.titlee}}</h6>
+            <h6 class="card-subtitle mb-2 text-center">{{item.timee}}</h6>
+            <div class="text-end">
+              <i class="fa fa-solid fa-check" *ngIf="item.estadoe=='Completado'"></i>
+              <i class="fa fa-solid fa-check alarmClock actual" *ngIf="item.estadoe=='Cursando'"></i>
+              <i class="fa fas fa-times" *ngIf="item.estadoe=='Incompleto'"></i>
+              <span [ngStyle]="{'color': item.estadoe === 'Cursando' ? 'greenyellow' : 'inherit'}">
+                {{item.estadoe}}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>

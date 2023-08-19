@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilo para el modal */
+.right-to-left-modal .modal-dialog {
+  position: fixed;
+  top: 20rem;
+  right: 0;
+  margin: 0;
+  width: 80%;
+  height: 100%;
+  /* transform: translateY(50%) ; */
+  /* transform: scale(1.5) !important; */
+  transition: transform 0.05s ;
+}
+
+.right-to-left-modal .modal.show .modal-dialog {
+  transform: translateX(30%);
+}
+
+/* Ajustar el estilo del fondo del modal */
+.modal-backdrop.show {
+  opacity: 0; /* Hace que el fondo no se oscurezca */
+}
+
+body{
+  background-color: cadetblue;
+}
+

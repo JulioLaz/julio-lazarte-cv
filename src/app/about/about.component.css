@@ -1,0 +1,286 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+.opened {
+  position: relative;
+  top: 20px;
+  left: 10rem;
+  width: 474px;
+  max-height: initial;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: system-ui;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 34px;
+  color: #323232;
+  margin-top: 1.5rem;
+  width: auto;
+}
+
+.card__started {
+  z-index: 11;
+  border-radius: 4px;
+  position: relative;
+  float: none;
+  height: auto;
+}
+
+.profile {
+  position: relative;
+  left: 0%;
+  /* width: calc(28vw - 24px); */
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: calc(90vh - 102px);
+  margin: 0 12px;
+}
+
+.subtitle {
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  height: 20px;
+  font-weight: 400;
+  color: #78cc6d;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0 0;
+}
+
+.lnks {
+  font-size: 16px;
+  color: #646464;
+  text-align: center;
+  /* box-sizing: border-box; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+}
+
+.lnk {
+  font-weight: 500;
+  border: none;
+  position: relative;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  float: none;
+  width: 100%;
+  font-size: 14px;
+  color: #323232;
+}
+
+.text {
+  font-weight: 500;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #323232;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+.discover {
+  font-weight: 500;
+  border: none;
+  position: relative;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  float: none;
+  width: 100%;
+  font-size: 14px;
+  color: #323232;
+}
+
+a {
+  margin: 0 6px;
+}
+
+a:hover {
+  color: #78cc6d;
+  transition: color .2s ease-in-out;
+}
+
+.fixed {
+  position: fixed;
+  position: relative;
+  top: 40px;
+  left: inherit;
+  z-index: 9999;
+  max-width: 600px;
+  max-height: initial;
+}
+
+img {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 10px 10px 0 0;
+}
+
+.linkedin-logo circle {
+  fill: rgb(13, 110, 253) !important;
+  /* Cambia este valor al color que desees */
+}
+
+.linkedin-logo circle:hover {
+  fill: greenyellow !important;
+  transition: color .2s ease-in-out;
+
+}
+
+/* titulos */
+.subtitle-container {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  width: 15rem;
+  /* height: 5rem; */
+  /* position: relative; */
+}
+
+.subtitle {
+  /* display: inline-block;
+  margin: 0;
+  padding: 5px;
+  opacity: 0; */
+  /* height: 3rem; */
+  position: absolute;
+  animation: cycle 9s infinite;
+  font-size: 1.5rem;
+}
+
+@keyframes cycle {
+
+  0%,
+  15% {
+    opacity: .3;
+    transform: translateY(0);
+  }
+
+  15%,
+  25% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  36%,
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+}
+
+.subtitle:nth-child(2) {
+  animation-delay: 3s;
+}
+
+.subtitle:nth-child(3) {
+  animation-delay: 6s;
+}
+
+/* deshabilitar */
+.caru {
+  display: block;
+
+}
+
+.caru_active {
+  display: none;
+
+}
+
+@media (max-width: 1200px) {
+  .caru {
+    display: none;
+  };
+  .opened {
+    left: 0rem;
+  };
+}
+
+@media (max-width: 1200px) {
+  .opened {
+    left: 0rem;
+  };
+}
+
+@media (max-width: 1200px) {
+  .caru_active {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: initial;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+    .carousel {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      overflow-y: auto;
+    };
+    .head_title {
+      position: absolute;
+      background: none;
+      width: 100vw;
+    };
+  };
+  .opened {
+    left: 0rem;
+  };
+  .main_title {
+    border: none;
+  };
+  .about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+}

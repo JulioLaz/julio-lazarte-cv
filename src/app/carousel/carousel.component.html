@@ -1,0 +1,136 @@
+<div id="carouselExampleIndicators" class="carousel  fixed slide" data-bs-interval="false" data-bs-ride="false">
+
+  <div class="carousel-inner ">
+
+    <div class="carousel-item active">
+      <app-education></app-education>
+    </div>
+
+    <div class="carousel-item ">
+      <app-proyects></app-proyects>
+    </div>
+
+    <div class="carousel-item ">
+      <app-certificados></app-certificados>
+    </div>
+
+    <div class="carousel-item ">
+      <app-experience></app-experience>
+    </div>
+
+    <div class="carousel-item ">
+      <!-- <app-skills></app-skills> -->
+        <div class="head_title">
+          <i class="fa_color fa fa-briefcase"></i>
+          <h2 class="title-with-shadow">Skills</h2>
+        </div>
+
+      <div class="title main_title">
+        <i class="fa_color fa fa-solid fa-users"></i>
+        <h2 class="title-with-shadow">Social</h2>
+      </div>
+
+      <div class="card-carousel" style="flex-direction: row;">
+        <div class="line mb-2"></div>
+
+        <div class="m-3" *ngFor="let item of data_social">
+
+          <div class="social">
+            <img class="img rounded " src="{{item.imgurl}}" alt="imgurl">
+            <h3 class=" fs-5">{{item.nombre}} <span class="fs-3">{{item.porcentaje}}</span> <span class="fs-5">%</span>
+            </h3>
+          </div>
+          <div class="progress" style="height: .5rem;">
+            <div class="progress-bar " role="progressbar" [style.width.%]="item.porcentaje"
+              [attr.aria-valuenow]="item.porcentaje" aria-valuemin="0" aria-valuemax="100"
+              style="background-color: greenyellow;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line m-4"></div>
+      <div class="title">
+        <i class="fa_color fa fa-regular fa-flag"></i>
+        <h2 class="title-with-shadow">Idioms</h2>
+      </div>
+
+      <div class="card-carousel" style="flex-direction: row;">
+        <div class="m-3" *ngFor="let item of data_idiomas">
+
+          <div class="social">
+            <img class="img rounded " src="{{item.imgurl}}" alt="imgurl">
+            <h3 class=" fs-5">{{item.nombre}} <span class="fs-3">{{item.porcentaje}}</span> <span class="fs-5">%</span>
+            </h3>
+          </div>
+          <div class="progress" style="height: .6rem;">
+            <div class="progress-bar" role="progressbar" [style.width.%]="item.porcentaje"
+              [attr.aria-valuenow]="item.porcentaje" aria-valuemin="0" aria-valuemax="100"
+              style="background-color: greenyellow;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line m-4"></div>
+      <div class="title">
+        <i class="fa_color fa fa-code"></i>
+
+        <h2 class="title-with-shadow">Coding</h2>
+      </div>
+
+      <div class="card-carousel" style="flex-direction: row;">
+        <div *ngFor="let item of data_skills">
+          <app-circle-progress [percentage]="parsePercentage(item.porcentaje)" [name]="item.nombre"
+            [imgurl]="item.imgurl"></app-circle-progress>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> -->
+
+</div>
+
+
+
+<div class="carousel-indicators">
+  <div class="diapositivas_div fa_color_btn diapositiva_inicial">
+    <h6 class="diapositivas_span"><i class="fa_color_btn fa fa-solid fa-graduation-cap"></i>
+      Education</h6>
+    <button id="primer" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="0" class="" aria-current="true" aria-label="Slide 0"
+      style="width: 100%;background: none !important;height: 3rem;"></button>
+  </div>
+  <div class="diapositivas_div fa_color_btn">
+    <h6 class="diapositivas_span"><i class="fa_color_btn fa fa-solid fa-laptop"></i>Proyectos</h6>
+    <button id="segundo" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="1" aria-label="Slide 1"></button>
+  </div>
+  <div class="diapositivas_div fa_color_btn">
+    <h6 class="diapositivas_span"><i class="fa_color_btn fa fa-code"></i>
+      Certificates</h6>
+    <button id="tercero" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="2" aria-label="Slide 2"></button>
+  </div>
+  <div class="diapositivas_div fa_color_btn ">
+    <h6 class="diapositivas_span"><i class="fa_color_btn fa fa-briefcase"></i>
+      Experience</h6>
+    <button id="tercero" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="3" aria-label="Slide 3"></button>
+  </div>
+  <div class="diapositivas_div fa_color_btn diapositiva_final">
+    <h6 class="diapositivas_span">
+      <i class="fa_color_btn fa fas fa-cogs"></i>
+      Skills
+    </h6>
+    <button id="tercero" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="4" aria-label="Slide 4"></button>
+  </div>
+</div>

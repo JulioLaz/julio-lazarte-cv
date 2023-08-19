@@ -1,0 +1,513 @@
+{
+  "educacion": [
+    {
+      "id": 2,
+      "ende": "2023",
+      "imge": "https://i.imgur.com/z5KJoV1.png",
+      "citye": "Online",
+      "timee": "6 meses",
+      "starte": "2023",
+      "titlee": "Data Science",
+      "estadoe": "Cursando",
+      "schoole": "Alura Latan",
+      "usuario_id": 1
+    },
+    {
+      "id": 3,
+      "ende": "2023",
+      "imge": "https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg",
+      "citye": "Online",
+      "timee": "6 meses",
+      "starte": "2022",
+      "titlee": "Front End Developer",
+      "estadoe": "Completado",
+      "schoole": "Alura Latam",
+      "usuario_id": 1
+    },
+    {
+      "id": 4,
+      "ende": "2002",
+      "imge": "https://yt3.ggpht.com/ytc/AMLnZu8qHBWxnwAc--pPrRH1evsbnH58LPOF3Q1ShHnL=s176-c-k-c0x00ffffff-no-rj",
+      "citye": "Tucumán, Arg.",
+      "timee": "4 años",
+      "starte": "2000",
+      "titlee": "Profesor de FILOSOFIA",
+      "estadoe": "Completado",
+      "schoole": "Seminario Mayor",
+      "usuario_id": 1
+    },
+    {
+      "id": 5,
+      "ende": "2007",
+      "imge": "https://campus5.unt.edu.ar/pluginfile.php/30616/mod_label/intro/Logo-AH-01.jpg",
+      "citye": "Tucumán, Arg.",
+      "timee": "5 años",
+      "starte": "2020",
+      "titlee": "Ingeniería Química",
+      "estadoe": "Incompleto",
+      "schoole": "UNT",
+      "usuario_id": 1
+    },
+    {
+      "id": 7,
+      "ende": "2023",
+      "imge": "https://i.imgur.com/V4xyKIC.png",
+      "citye": "Online",
+      "timee": "6 meses",
+      "starte": "2022",
+      "titlee": "Full Stack Developer Jr",
+      "estadoe": "Completado",
+      "schoole": "Argentina Programa #YO-PROGRAMO",
+      "usuario_id": 1
+    },
+    {
+      "id": 8,
+      "ende": "2002",
+      "imge": "https://app.aulica.com.ar/uploads/29/imgEmpresa/00000196Juqjw.png",
+      "citye": "Tucumán, Arg.",
+      "timee": "5 años",
+      "starte": "1996",
+      "titlee": "Técnico Electro Mec.",
+      "estadoe": "Completado",
+      "schoole": "Lorenzo Massa",
+      "usuario_id": 1
+    }
+  ],
+  "cursos": [
+    {
+      "id": 10,
+      "cursos": "Argentina Programa",
+      "img_curso": "https://i.imgur.com/59kehf7.png",
+      "usuario_id": 1,
+      "descripcion": "Argentina Programa tiene como objetivo adquirir los conocimientos necesarios para desarrollar una aplicación web full stack que deberá ser de arquitectura distribuida y contener un diseño de interfaz de usuario (front end) que muestre la información, una base de datos que almacene los datos antes mencionados y debe contar con las APIs necesarias para proveer a través de internet la información (back end)."
+    },
+    {
+      "id": 11,
+      "cursos": "Alura Latam",
+      "img_curso": "https://i.imgur.com/07PVet0.png",
+      "usuario_id": 1,
+      "descripcion": "Principiante en Programación - Front End G3 - Business Agility - Desarrollo Personal"
+    },
+    {
+      "id": 12,
+      "cursos": "Principiante en Programación",
+      "img_curso": "https://i.imgur.com/t8iHiCN.png",
+      "usuario_id": 1,
+      "descripcion": "Lógica de programación: Primeros pasos - Lógica de programación: Conceptos primordiales - Lógica de programación: Practicando con juegos y animaciones - HTML5 y CSS3 parte 1: Mi primera página web - HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación - HTML5 y CSS3 parte 3: Trabajando con formularios y tablas - HTML5 y CSS3 parte 4: Avanzando en CSS - Git y GitHub: controle y comparta su código."
+    },
+    {
+      "id": 13,
+      "cursos": "Front End G3",
+      "img_curso": "https://i.imgur.com/eXZR45f.png",
+      "usuario_id": 1,
+      "descripcion": "Flexbox: Posicione elementos en la pantalla - CSS Grid: Simplificando layouts - Layouts Responsivos: Trabajando con layouts mobile - Arquitectura CSS: Descomplicando los problemas - JavaScript: primeros pasos con el lenguaje - JS en la Web: Manipulación del DOM con JavaScript - JS en la Web: Validación de Formularios y HTML5 - JavaScript: Introducción a la Orientación a Objetos - JavaScript: Herencia e Interfaces en Orientación a Objetos - JS en la Web: Almacenando datos en el navegador - JS en la Web: CRUD con JavaScript asíncrono."
+    },
+    {
+      "id": 14,
+      "cursos": "Business Agility",
+      "img_curso": "https://i.imgur.com/SibjrrA.png",
+      "usuario_id": 1,
+      "descripcion": "Fundamentos de Agilidad: Primeros pasos para la transformación ágil - Gestión ágil: Liderando el cambio en un ambiente de agilidad - La Empresa Ágil: Introduciendo el Business Agility en las organizaciones - Organización de equipos ágiles: Las funciones existentes en un equipo."
+    },
+    {
+      "id": 15,
+      "cursos": "Desarrollo Personal",
+      "img_curso": "https://i.imgur.com/tdyEKe3.png",
+      "usuario_id": 1,
+      "descripcion": "LinkedIn: Como hacer que tu perfil trabaje por ti - Foco: Enfocarse trae más resultados para el día a día - Hábitos: Ser productivo para cumplir sus metas personales - Productividad: Estrategias para actividades diarias."
+    }
+  ],
+  "experiencia": [
+    {
+      "id": 1,
+      "ende": "2023",
+      "citye": "Tucumán, Argentina",
+      "cargoe": "Docente",
+      "starte": "2015",
+      "nombree": "Ministerio de Educación",
+      "usuario_id": 1,
+      "descripcione": "Profesor de Filosofía"
+    },
+    {
+      "id": 2,
+      "ende": "2014",
+      "citye": "Catamarca, Argentina",
+      "cargoe": "Administrador",
+      "starte": "2011",
+      "nombree": "Prelatura",
+      "usuario_id": 1,
+      "descripcione": "Tareas generales administrativas y técnicas"
+    },
+    {
+      "id": 3,
+      "ende": "2010",
+      "citye": "Tucumán, Argentina",
+      "cargoe": "Administrativo",
+      "starte": "2006",
+      "nombree": "Empresa familiar",
+      "usuario_id": 1,
+      "descripcione": "Tareas generales administrativas y técnicas"
+    },
+    {
+      "id": 4,
+      "ende": "2007",
+      "citye": "La Florida, Tucumán, Arg.",
+      "cargoe": "Asistente de fabricación",
+      "starte": "2004",
+      "nombree": "Cia. Azucarera Los Balcanes",
+      "usuario_id": 1,
+      "descripcione": "Control del proceso de fabricación de azucar"
+    },
+    {
+      "id": 5,
+      "ende": "2007",
+      "citye": "La Florida, Tucumán, Argentina",
+      "cargoe": "Químico",
+      "starte": "2004",
+      "nombree": "Cia. Azucarera Los Balcanes.",
+      "usuario_id": 1,
+      "descripcione": "Químico de control de calidad de azucar"
+    },
+    {
+      "id": 6,
+      "ende": "2003",
+      "citye": "El Siambon, Tucumán, Argentina",
+      "cargoe": "Técnico en mantenimiento",
+      "starte": "2002",
+      "nombree": "Laboratorio Monjes Benedictinos",
+      "usuario_id": 1,
+      "descripcione": "Mantenimiento en laboratorio de fitoterápicos y cremas"
+    }
+  ],
+  "frases": [
+    {
+      "id": 1,
+      "autor": "Albert Einstein.",
+      "frases": "\"Todo aquello que el hombre ignora no existe para él. Por eso el universo de cada uno se resume al tamaño de su saber.\"",
+      "seccion_id": 1,
+      "usuario_id": 1
+    },
+    {
+      "id": 2,
+      "autor": "Steve Jobs",
+      "frases": "\"La única forma de hacer un gran trabajo es amando lo que haces.\"",
+      "seccion_id": 2,
+      "usuario_id": 1
+    },
+    {
+      "id": 3,
+      "autor": "Bill Gates",
+      "frases": "\"Las grandes oportunidades nacen de haber sabido aprovechar las pequeñas.\"",
+      "seccion_id": 3,
+      "usuario_id": 1
+    },
+    {
+      "id": 4,
+      "autor": "Ludwig Wittgenstein",
+      "frases": "\"Los límites de mi idioma son los límites de mi mundo.\"",
+      "seccion_id": 4,
+      "usuario_id": 1
+    },
+    {
+      "id": 5,
+      "autor": "Steve Jobs",
+      "frases": "\"Estoy convencido de que la mitad de lo que separa a los emprendedores exitosos de los que no triunfan es la perseverancia.\"",
+      "seccion_id": 5,
+      "usuario_id": 1
+    },
+    {
+      "id": 6,
+      "autor": "Emily Greene Balch",
+      "frases": "\"La tecnología nos facilita reducir las barreras de la distancia y el tiempo.\"",
+      "seccion_id": 6,
+      "usuario_id": 1
+    }
+  ],
+  "skill_social": [
+    {
+      "id": 1,
+      "imgurl": "https://i.imgur.com/P8MRKg7.png",
+      "nombre": "Colaboración",
+      "porcentaje": 90,
+      "usuario_id": 1
+    },
+    {
+      "id": 2,
+      "imgurl": "https://i.imgur.com/QIGflwq.png",
+      "nombre": "Storytelling",
+      "porcentaje": 70,
+      "usuario_id": 1
+    },
+    {
+      "id": 3,
+      "imgurl": "https://i.imgur.com/v0L8oBi.png",
+      "nombre": "Proactividad",
+      "porcentaje":90,
+      "usuario_id": 1
+    },
+    {
+      "id": 4,
+      "imgurl": "https://i.imgur.com/ULG6VDA.png",
+      "nombre": "Flexibilidad",
+      "porcentaje": 80,
+      "usuario_id": 1
+    },
+    {
+      "id": 4,
+      "imgurl": "https://i.imgur.com/4TZHNqA.png",
+      "nombre": "Leadership",
+      "porcentaje": 80,
+      "usuario_id": 1
+    }
+  ],
+    "hard_andsskills": [
+    {
+      "id": 51,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png",
+      "nombre": "HTML",
+      "porcentaje": 80,
+      "usuario_id": 1
+    },
+    {
+      "id": 52,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/375px-CSS3_logo.svg.png",
+      "nombre": "CSS",
+      "porcentaje": 80,
+      "usuario_id": 1
+    },
+    {
+      "id": 54,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mysql.svg/75px-Mysql.svg.png",
+      "nombre": "MySQL",
+      "porcentaje": 60,
+      "usuario_id": 1
+    },
+    {
+      "id": 55,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Angular-logo.png/113px-Angular-logo.png",
+      "nombre": "ANGULAR",
+      "porcentaje": 65,
+      "usuario_id": 1
+    },
+    {
+      "id": 56,
+      "imgurl": "https://img.icons8.com/windows/512/github.png",
+      "nombre": "GitHub",
+      "porcentaje": 80,
+      "usuario_id": 1
+    },
+    {
+      "id": 57,
+      "imgurl": "https://img.icons8.com/color/512/bootstrap.png",
+      "nombre": "Bootstrap",
+      "porcentaje": 90,
+      "usuario_id": 1
+    },
+    {
+      "id": 58,
+      "imgurl": "https://img.icons8.com/material-outlined/512/java-coffee-cup-logo.png",
+      "nombre": "JAVA",
+      "porcentaje": 40,
+      "usuario_id": 1
+    },
+    {
+      "id": 59,
+      "imgurl": "https://img.icons8.com/external-tal-revivo-fresh-tal-revivo/2x/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-fresh-tal-revivo.png",
+      "nombre": "TypeScript",
+      "porcentaje": 40,
+      "usuario_id": 1
+    },
+    {
+      "id": 70,
+      "imgurl": "https://www.python.org/static/img/python-logo@2x.png",
+      "nombre": "Python",
+      "porcentaje": 50,
+      "usuario_id": 1
+    },
+    {
+      "id": 71,
+      "imgurl": "https://console.clever-cloud.com/img/svg-logo.svg",
+      "nombre": "Clever-cloud",
+      "porcentaje": 50,
+      "usuario_id": 1
+    },
+    {
+      "id": 72,
+      "imgurl": "https://render.com/static/f6832cde8baa48b01d6acf79bf0103c2/66744/why-render-primary.avif",
+      "nombre": "Render",
+      "porcentaje": 50,
+      "usuario_id": 1
+    },
+    {
+      "id": 73,
+      "imgurl": "https://s.imgur.com/images/favicon-32x32.png",
+      "nombre": "Imgur",
+      "porcentaje": 70,
+      "usuario_id": 1
+    },
+    {
+      "id": 74,
+      "imgurl": "https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png",
+      "nombre": "FireBase",
+      "porcentaje": 70,
+      "usuario_id": 1
+    },
+    {
+      "id": 75,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/120px-Visual_Studio_Code_1.35_icon.svg.png",
+      "nombre": "Visual Studio Code",
+      "porcentaje":70,
+      "usuario_id": 1
+    },
+    {
+      "id": 76,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/375px-Apache_NetBeans_Logo.svg.png",
+      "nombre": "Net Beans",
+      "porcentaje": 60,
+      "usuario_id": 1
+    },
+    {
+      "id": 77,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Trello-logo-blue.svg/468px-Trello-logo-blue.svg.png",
+      "nombre": "Trello",
+      "porcentaje": 70,
+      "usuario_id": 1
+    },
+    {
+      "id": 78,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/1200px-Google_Colaboratory_SVG_Logo.svg.png?20221103151432",
+      "nombre": "Google Colab",
+      "porcentaje": 70,
+      "usuario_id": 1
+    },
+    {
+      "id": 79,
+      "imgurl": "https://cdn.icon-icons.com/icons2/3053/PNG/512/discord_macos_bigsur_icon_190238.png",
+      "nombre": "Discord",
+      "porcentaje": 80,
+      "usuario_id": 1
+    },
+    {
+      "id": 90,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/300px-Linkedin.svg.png",
+      "nombre": "Linkedin",
+      "porcentaje": 60,
+      "usuario_id": 1
+    }
+  ],
+  "idiomas": [
+    {
+      "id": 9,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/300px-Flag_of_the_United_States.svg.png",
+      "nombre": "Ingles nivel A2",
+      "porcentaje": 60,
+      "usuario_id": 1
+    }
+  ],
+  "persona": [
+    {
+      "id": 1,
+      "email": "julioalazarte@yahoo.com",
+      "img": "https://avatars.githubusercontent.com/u/108642139?v=4",
+      "city": "Argentino",
+      "edad": "45 años",
+      "about": "La ciencia es mi pasión. Mi vida es crecimiento intelectual y espiritual. La informatica es un universo ilimitado donde puedo desarrollarme libremente. Me esfuerzo en lograr un mundo ordenado, unido a personas que son empáticas al bien de todos.",
+      "title": "Profesor de Filosofía    &    Full Stack Developer Jr",
+      "nombre": "Julio Alberto",
+      "apellido": "Lazarte",
+      "title_about": "Sobre mi vida:"
+    }
+  ],
+  "proyectos": [
+    {
+      "id": 1100,
+      "fecha": "Julio 2023",
+      "proyectos": "E-Commerce",
+      "usuario_id": 1,
+      "descripcion": "E-commerce desarrollada con angular/matirial, CRUD y login, DDBB con Firestore. Deploy en Firebase. ",
+      "img_proyecto": "https://i.imgur.com/QCBQE5S.png",
+      "url_proyecto": "https://mystore-all.web.app/products",
+      "img_lenguajes": "java"
+    },
+    {
+      "id": 1000,
+      "fecha": "Julio 2023",
+      "proyectos": "DATA INSIDER",
+      "usuario_id": 1,
+      "descripcion": "Análisis de Forbes 2000.",
+      "img_proyecto": "https://i.imgur.com/WKVy8sM.png",
+      "url_proyecto": "https://docs.google.com/presentation/d/1HkjXzWNvVuX7ByTFgPu9le_RoEecfbmWU1KMof950dY/edit?usp=sharing",
+      "img_lenguajes": "JavaScript"
+    },
+    {
+      "id": 900,
+      "fecha": "Julio 2023",
+      "proyectos": "Consumo de Cerveza",
+      "usuario_id": 1,
+      "descripcion": "Calculadora de consumo de cerveza según las condiciones climaticas",
+      "img_proyecto": "https://i.imgur.com/kxSdC14.png",
+      "url_proyecto": "https://calcular-consumo-cerveza.web.app/",
+      "img_lenguajes": "JavaScript / Python"
+    },
+    {
+      "id": 800,
+      "fecha": " Marzo 2023",
+      "proyectos": "Web Scraping",
+      "usuario_id": 1,
+      "descripcion": "Obtiene los datos de una pagina de ventas de autos",
+      "img_proyecto": "https://i.imgur.com/UxakqeQ.png",
+      "url_proyecto": "https://github.com/JulioLaz/Web_Scraping",
+      "img_lenguajes": "Python"
+    },
+    {
+      "id": 5,
+      "fecha": "Mayo 2023",
+      "proyectos": "Bitcoin Trading",
+      "usuario_id": 1,
+      "descripcion": "Algoritmo de decisión de de compra/venta de bitcoin, con indicadores: tendencia, ma50, ma200, rsi, macd, masd-signal. Determina si es conveniente la compra/venta de Bitcoin Usando yahoo finance",
+      "img_proyecto": "https://i.imgur.com/JBWF98L.png",
+      "url_proyecto": "https://github.com/JulioLaz/bitcoin_trading.git",
+      "img_lenguajes": "Python"
+    },
+    {
+      "id": 4,
+      "fecha": "Febrero 2022",
+      "proyectos": "HOTEL ALURA",
+      "usuario_id": 1,
+      "descripcion": "Aplicacion para el registro de huespedes",
+      "img_proyecto": "https://i.imgur.com/8mMt1zQ.jpg",
+      "url_proyecto": "https://github.com/JulioLaz/HOTEL-ALURA.git",
+      "img_lenguajes": "JAVA"
+    },
+    {
+      "id": 3,
+      "fecha": "Dic 2022",
+      "proyectos": "My Portfolio",
+      "usuario_id": 1,
+      "descripcion": "Curriculum vitae",
+      "img_proyecto": "https://i.imgur.com/jtMamWm.jpg",
+      "url_proyecto": "https://julio-lazarte-cv.web.app/",
+      "img_lenguajes": "Front: JS - Back: JAVA - DDBB: mysql"
+    },
+    {
+      "id": 2,
+      "fecha": "Septiembre 2022",
+      "proyectos": "Encriptador",
+      "usuario_id": 1,
+      "descripcion": "Encripta palabras con un método simple",
+      "img_proyecto": "https://i.imgur.com/z0DV7ts.jpg",
+      "url_proyecto": "https://juliolaz.github.io/",
+      "img_lenguajes": "JavaScript"
+    },
+    {
+      "id": 1,
+      "fecha": "Julio 2022",
+      "proyectos": "Juego del Ahorcadito",
+      "usuario_id": 1,
+      "descripcion": "Es un juego para decubrir palabras",
+      "img_proyecto": "https://i.imgur.com/gvniyaq.jpeg",
+      "url_proyecto": "https://juliolaz.github.io/juego-ahorcadito/",
+      "img_lenguajes": "JavaScript"
+    }
+  ]
+}
