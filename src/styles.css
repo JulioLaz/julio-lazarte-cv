@@ -1,26 +1,21 @@
-/* Estilo para el modal */
-.right-to-left-modal .modal-dialog {
-  position: fixed;
-  top: 20rem;
-  right: 0;
-  margin: 0;
-  width: 80%;
-  height: 100%;
-  /* transform: translateY(50%) ; */
-  /* transform: scale(1.5) !important; */
-  transition: transform 0.05s ;
+body {
+  background: linear-gradient(to right, #57c57e, #3d6980);
+  overflow-x:hidden;
+  width: auto;
 }
 
-.right-to-left-modal .modal.show .modal-dialog {
-  transform: translateX(30%);
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-/* Ajustar el estilo del fondo del modal */
-.modal-backdrop.show {
-  opacity: 0; /* Hace que el fondo no se oscurezca */
+::-webkit-scrollbar-thumb {
+  background-color: aliceblue;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: #3d6980;
 }
 
-body{
-  background-color: cadetblue;
+p{
+  font-size: .9rem !important;
 }
-

@@ -1,28 +1,29 @@
-    <div class="head_title">
-      <i class="fa_color fa fa-solid fa-graduation-cap"></i>
-      <h2 class="title-with-shadow">Education</h2>
-    </div>
-    <div class="card-carousel main_title">
-      <div class="line mb-2"></div>
+<div class="head_title">
+  <i class="fa_color fa fa-solid fa-graduation-cap"></i>
+  <h2 class="title-with-shadow">Education</h2>
+</div>
+
+<div class="card-carousel main_title">
+<div class="line mb-2"></div>
 
       <div class="card card_exp"  *ngFor="let item of data_edu">
         <div class="card-body card_body">
-          <img src="{{item.imge}}" class="card-img-top m-3" alt="..." style="width: 30%;">
+          <img src="{{item.imge}}" class="card-img-top m-3" alt="{{item.schoole}}" style="width: 30%;height: 65%;">
           <div class="" style="width: 68%;padding: .5rem">
             <div class="date_div">
               <span class="date">{{item.starte}} - {{item.ende}}</span>
               <span class="date">{{item.citye}}</span>
             </div>
 
-            <h5 class="card-title text-center mt-2">{{item.schoole}}</h5>
+            <h6 class="card-title text-center mt-2">{{item.schoole}}</h6>
             <div class="gradient-line"></div>
-            <h6 class="card-subtitle mb-2 mt-3 text-center">{{item.titlee}}</h6>
-            <h6 class="card-subtitle mb-2 text-center">{{item.timee}}</h6>
+            <p class="card-subtitle mb-2 mt-3 text-center">{{item.titlee}}</p>
+            <p class="card-subtitle mb-2 text-center">{{item.timee}}</p>
             <div class="text-end">
               <i class="fa fa-solid fa-check" *ngIf="item.estadoe=='Completado'"></i>
-              <i class="fa fa-solid fa-check alarmClock actual" *ngIf="item.estadoe=='Cursando'"></i>
+              <i class="fa fa-solid fa-check alarmClock actual fs-5" *ngIf="item.estadoe=='Cursando'"></i>
               <i class="fa fas fa-times" *ngIf="item.estadoe=='Incompleto'"></i>
-              <span [ngStyle]="{'color': item.estadoe === 'Cursando' ? 'greenyellow' : 'inherit'}">
+              <span class="fw-bold" [ngStyle]="{'color': item.estadoe === 'Cursando' ? '#56de5d' : 'inherit'}">
                 {{item.estadoe}}
               </span>
             </div>

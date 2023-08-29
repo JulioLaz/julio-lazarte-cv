@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 200px;
+  height: 140px;
   margin: .5rem;
   border-radius: 5px;
   /* box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2); */
@@ -15,8 +15,8 @@
 
 .card_mode svg {
   position: relative;
-  width: 210px;
-  height: 210px;
+  width: 120px;
+  height: 120px;
   transform: rotate(-90deg);
 }
 
@@ -27,18 +27,18 @@
 } */
 
 .card_mode svg circle {
-  width: 100%;
-  height: 100%;
+  /* width: 80%;
+  height: 70%; */
   fill: none;
   stroke: #e7e2e2;
-  stroke-width: 8;
+  stroke-width: 6;
   stroke-linecap: round;
 }
 
 .card_mode svg circle:last-of-type {
-  stroke-dasharray: 375px;
-  stroke-dashoffset: calc(375px - (375px * var(--percent)) / 100);
-  stroke: rgb(154, 203, 94);
+  stroke-dasharray: 250;
+  stroke-dashoffset: calc(250 - (250 * var(--percent)) / 100);
+  /* stroke: rgb(154, 203, 94); */
   stroke: greenyellow;
 
 }
@@ -62,7 +62,7 @@
 }
 
 .img{
-  width: 2.5rem;
+  width: 1.5rem;
   justify-content: center;
 }
 

@@ -1,67 +1,65 @@
-<div class="head_title">
-  <i class="fa_color fa fa-briefcase"></i>
-  <h2 class="title-with-shadow">Skills</h2>
-</div>
+<div class="">
+  <div class="head_title">
+    <i class="fa_color fa fa-briefcase"></i>
+    <h2 class="title-with-shadow">Skills</h2>
+  </div>
 
-<div class="" >
-  <div class="line" style="position: absolute;top: 6.5rem;z-index: 20000;"></div>
-</div>
+<!-- SOCIAL -->
+  <div class="line m-1"></div>
+  <div class="title">
+    <i class="fa_color fa fa-solid fa-users"></i>
+    <h3 class="title-with-shadow">Social</h3>
+  </div>
 
-<div class="title main_title">
-  <i class="fa_color fa fa-solid fa-users"></i>
-  <h2 class="title-with-shadow">Social</h2>
-</div>
-
-<div class="card-carousel" style="flex-direction: row;">
-  <div class="line mb-2"></div>
-
-  <div class="m-3" *ngFor="let item of data_social">
-
-    <div class="social">
-      <img class="img rounded " src="{{item.imgurl}}" alt="imgurl">
-      <h3 class=" fs-5">{{item.nombre}} <span class="fs-3">{{item.porcentaje}}</span> <span class="fs-5">%</span>
-      </h3>
-    </div>
-    <div class="progress" style="height: .5rem;">
-      <div class="progress-bar " role="progressbar" [style.width.%]="item.porcentaje"
-        [attr.aria-valuenow]="item.porcentaje" aria-valuemin="0" aria-valuemax="100"
-        style="background-color: greenyellow;"></div>
+  <div class="card-carousel" style="flex-direction: row;">
+    <div class="m-3" *ngFor="let item of data_social">
+      <div class="social">
+        <img class="img rounded " src="{{item.imgurl}}" alt="imgurl">
+        <h3 class=" fs-6">{{item.nombre}} <span class="fs-5">{{item.porcentaje}}</span> <span class="fs-5">%</span>
+        </h3>
+      </div>
+      <div class="progress" style="height: .5rem;">
+        <div class="progress-bar " role="progressbar" [style.width.%]="item.porcentaje"
+          [attr.aria-valuenow]="item.porcentaje" aria-valuemin="0" aria-valuemax="100"
+          style="background-color: greenyellow;"></div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="line m-4"></div>
-<div class="title">
-  <i class="fa_color fa fa-regular fa-flag"></i>
-  <h2 class="title-with-shadow">Idioms</h2>
-</div>
+  <!-- IDIOMS -->
+  <div class="line m-2"></div>
+  <div class="title">
+    <i class="fa_color fa fa-regular fa-flag"></i>
+    <h3 class="title-with-shadow">Idioms</h3>
+  </div>
 
-<div class="card-carousel" style="flex-direction: row;">
-  <div class="m-3" *ngFor="let item of data_idiomas">
+  <div class="card-carousel" style="flex-direction: row;">
+    <div class="m-3" *ngFor="let item of data_idiomas">
 
-    <div class="social">
-      <img class="img rounded " src="{{item.imgurl}}" alt="imgurl">
-      <h3 class=" fs-5">{{item.nombre}} <span class="fs-3">{{item.porcentaje}}</span> <span class="fs-5">%</span>
-      </h3>
-    </div>
-    <div class="progress" style="height: .6rem;">
-      <div class="progress-bar" role="progressbar" [style.width.%]="item.porcentaje"
-        [attr.aria-valuenow]="item.porcentaje" aria-valuemin="0" aria-valuemax="100"
-        style="background-color: greenyellow;"></div>
+      <div class="social">
+        <img class="img rounded " src="{{item.imgurl}}" alt="imgurl">
+        <h3 class=" fs-6">{{item.nombre}} <span class="fs-5">{{item.porcentaje}}</span> <span class="fs-5">%</span>
+        </h3>
+      </div>
+      <div class="progress" style="height: .6rem;">
+        <div class="progress-bar" role="progressbar" [style.width.%]="item.porcentaje"
+          [attr.aria-valuenow]="item.porcentaje" aria-valuemin="0" aria-valuemax="100"
+          style="background-color: greenyellow;"></div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="line m-4"></div>
-<div class="title">
-  <i class="fa_color fa fa-code"></i>
+  <!-- CODING -->
+  <div class="line m-2"></div>
+  <div class="title">
+    <i class="fa_color fa fa-code"></i>
+    <h3 class="title-with-shadow">Coding</h3>
+  </div>
 
-  <h2 class="title-with-shadow">Coding</h2>
-</div>
-
-<div class="card-carousel" style="flex-direction: row;">
-  <div *ngFor="let item of data_skills">
-    <app-circle-progress [percentage]="parsePercentage(item.porcentaje)" [name]="item.nombre"
-      [imgurl]="item.imgurl"></app-circle-progress>
+  <div class="card-carousel" style="flex-direction: row;">
+    <div *ngFor="let item of data_skills">
+      <app-circle-progress [percentage]="parsePercentage(item.porcentaje)" [name]="item.nombre"
+        [imgurl]="item.imgurl"></app-circle-progress>
+    </div>
   </div>
 </div>

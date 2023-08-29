@@ -7,13 +7,14 @@
   <div class="card-carousel main_title">
     <div class="line mb-2"></div>
 
-    <div class="card flip-card " *ngFor="let item of data_cursos" style="height: 18rem;margin: 1rem 0;">
+    <div class="card flip-card card_certificados mt-3" *ngFor="let item of data_cursos" style="height: 18rem;margin: 1rem 0;">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <h5 class="card-title text-center mt-2" style="width: 100%">{{item.cursos}}</h5>
+          <h6 class="card-title text-center mt-2" style="width: 100%;color: grey;">{{item.cursos}}</h6>
         <div class="" style="width: 100%;display: flex;justify-content: center;">
-          <img src="{{item.img_curso}}" class="card-img-top" alt="img_curso"
-            style="width: 58%;justify-content: center;">
+          <img src="{{item.img_curso}}" class="card-img-top img_certificados" alt="img_curso"
+            >
+            <div class="btn_eye btn-clickme display_off" >click</div>
           </div>
         </div>
         <div class="flip-card-back">
@@ -21,6 +22,7 @@
         </div>
       </div>
     </div>
+
   </div>
 
 <!-- </div> -->

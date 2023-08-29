@@ -15,6 +15,9 @@ import { ProyectsComponent } from './proyects/proyects.component';
 import { CertificadosComponent } from './certificados/certificados.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
+import { HighlightButtonDirective } from './highlight-button.directive';
+import { CvPdfComponent } from './cv-pdf/cv-pdf.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +29,9 @@ import { SkillsComponent } from './skills/skills.component';
     CertificadosComponent,
     ExperienceComponent,
     SkillsComponent,
+    HighlightButtonDirective,
+    CvPdfComponent,
+    AboutMeComponent,
   ],
   imports: [
     BrowserModule,

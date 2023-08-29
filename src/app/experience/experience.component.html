@@ -2,20 +2,20 @@
   <i class="fa_color fa fa-briefcase"></i>
   <h2 class="title-with-shadow">Experience</h2>
 </div>
-<div class="card-carousel main_title">
+<div class="card-carousel ">
   <div class="line mb-2"></div>
 
   <div class="card card_exp" *ngFor="let item of data_exp">
     <div class="card-body">
       <div class="date_div">
-        <span class="date">{{item.starte}} - {{item.ende}}</span>
+        <!-- <span class="date">{{item.starte}} - {{item.ende}}</span> -->
+        <span class="date" [ngClass]="{'present-class': item.ende === 'Present'}">{{item.starte}} - {{item.ende}}</span>
         <span class="date">{{item.citye}}</span>
       </div>
-      <h5 class="card-title text-center mt-2">{{item.nombree}}</h5>
+      <h6 class="card-title text-center mt-2">{{item.nombree}}</h6>
       <div class="gradient-line"></div>
       <div class="subtitle">
-        <h5 class="card-subtitle mb-2 text-muted mt-2">{{item.cargoe}}:</h5>
-        <!-- <div class="line"></div> -->
+        <h6 class="card-subtitle mb-2 text-muted mt-2">{{item.cargoe}}:</h6>
         <p class="card-text fs-6 m-2">{{item.descripcione}}</p>
       </div>
     </div>
