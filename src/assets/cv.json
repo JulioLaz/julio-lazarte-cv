@@ -436,7 +436,7 @@
       "proyectos": "Robot Trading",
       "usuario_id": 1,
       "descripcion": "Algoritmo de decisión de de compra/venta de bitcoin, con indicadores: tendencia, ma50, ma200, rsi, macd, masd-signal.",
-      "img_proyecto": "https://i.imgur.com/SIneRTV.png",
+      "img_proyecto": "https://i.imgur.com/2WMdl0b.png",
       "url_proyecto": "https://github.com/JulioLaz/bitcoin_trading_vsc/blob/main/bitcoin_trading.ipynb",
       "img_lenguajes": "Python"
     },
