@@ -12,12 +12,16 @@ export class AboutComponent implements OnInit {
   subtitles = ['Data Scientist Jr.', 'Full Stack Developer Jr.', 'Philosophy teacher'];
   currentIndex = 0;
 
+
+
   constructor(private datajsonService: DatajsonService) { }
   ngOnInit(): void {
     this.startCarousel();
     this.datajsonService.getData().subscribe(data => {
       this.about = data.persona
-    })
+    });
+
+
 
   }
   downloadPDF() {
@@ -31,4 +35,6 @@ export class AboutComponent implements OnInit {
       this.currentIndex = (this.currentIndex + 1) % this.subtitles.length;
     }, 1500);
   }
+
+
 }

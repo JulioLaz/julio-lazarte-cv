@@ -192,6 +192,7 @@ img {
   margin: 0 auto;
   padding: 3rem 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1100px) {
@@ -248,7 +249,7 @@ img {
       background-color: rgb(240, 248, 255) !important;
       width: initial;
       align-items: center;
-      z-index: 1000;
+      z-index: 150;
     }
   }
 
@@ -273,10 +274,8 @@ width: 424px;
 
 
 .btn_cv{
-  /* border: 1px solid rgb(13, 110, 253); */
   border: 1px solid gray;
   padding: 5px;
-  /* color: rgb(13, 110, 253); */
   color: rgb(128, 128, 128);
 }
 
@@ -285,6 +284,7 @@ width: 424px;
   border: 1px solid #78cc6d;
   transition: color border .2s ease-in-out;
 }
+
 /* bg bubbles */
 * {
   margin: 0;
@@ -302,7 +302,7 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: -100;
 }
 
@@ -318,6 +318,7 @@ ul {
   color: rgba(250, 235, 215,.4);
   font-size: 1.2rem;
   font-weight: 700;
+  animation-fill-mode: both;
 
 }
 
@@ -325,6 +326,7 @@ ul {
   left: 10%;
   width: 100px;
   height: 100px;
+  animation-delay: 0s;
 }
 
 .bg-bubbles li:nth-child(2) {
@@ -332,6 +334,7 @@ ul {
   width: 80px;
   height: 80px;
   animation-duration: 19s;
+  animation-delay: 1s;
 }
 
 .bg-bubbles li:nth-child(3) {
@@ -339,6 +342,7 @@ ul {
   width: 80px;
   height: 80px;
   animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 .bg-bubbles li:nth-child(4) {
@@ -347,12 +351,14 @@ ul {
   height: 120px;
   animation-duration: 12s;
   background-color: rgba(255, 255, 255, 0.25);
+  animation-delay: 3s;
 }
 
 .bg-bubbles li:nth-child(5) {
   left: 70%;
   width: 75px;
   height: 75px;
+  animation-delay: 4s;
 }
 
 .bg-bubbles li:nth-child(6) {
@@ -361,13 +367,14 @@ ul {
   height: 90px;
   animation-delay: 3s;
   background-color: rgba(255, 255, 255, 0.2);
+  animation-delay: 5s;
 }
 
 .bg-bubbles li:nth-child(7) {
   left: 32%;
   width: 120px;
   height: 120px;
-  animation-delay: 7s;
+  animation-delay: 6s;
 }
 
 .bg-bubbles li:nth-child(8) {
@@ -375,20 +382,21 @@ ul {
   width: 85px;
   height: 85px;
   animation-duration: 20s;
+  animation-delay: 7s;
 }
 
 .bg-bubbles li:nth-child(9) {
   left: 25%;
   width: 110px;
   height: 110px;
-  animation-delay: 2s;
+  animation-delay: 8s;
 }
 
 .bg-bubbles li:nth-child(10) {
   left: 90%;
   width: 160px;
   height: 160px;
-  animation-delay: 11s;
+  animation-delay: 9s;
 }
 
 li{
@@ -406,7 +414,7 @@ li{
   }
 
   100% {
-    transform: translateY(-1500px) rotate(600deg);
+    transform: translateY(-1500px) rotate(750deg);
   }
 }
 
@@ -436,3 +444,5 @@ li{
   /* transform: translateX(0); */
   transform: scale(1);
 }
+
+

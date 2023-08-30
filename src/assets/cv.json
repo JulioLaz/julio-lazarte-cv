@@ -428,7 +428,17 @@
       "descripcion": "E-commerce desarrollada con angular/matirial, CRUD y login, DDBB con Firestore. Deploy en Firebase. ",
       "img_proyecto": "https://i.imgur.com/QCBQE5S.png",
       "url_proyecto": "https://mystore-all.web.app/products",
-      "img_lenguajes": "java"
+      "img_lenguajes": "JavaScript"
+    },
+    {
+      "id": 1150,
+      "fecha": "Julio 2023",
+      "proyectos": "Robot Trading",
+      "usuario_id": 1,
+      "descripcion": "Algoritmo de decisión de de compra/venta de bitcoin, con indicadores: tendencia, ma50, ma200, rsi, macd, masd-signal.",
+      "img_proyecto": "https://i.imgur.com/SIneRTV.png",
+      "url_proyecto": "https://github.com/JulioLaz/bitcoin_trading_vsc/blob/main/bitcoin_trading.ipynb",
+      "img_lenguajes": "Python"
     },
     {
       "id": 1000,
