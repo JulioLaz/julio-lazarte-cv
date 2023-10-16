@@ -1,6 +1,30 @@
 {
   "educacion": [
     {
+      "id": 1,
+      "ende": "2023",
+      "imge": "https://i.imgur.com/8ixdXbJ.png",
+      "citye": "Online",
+      "timee": "6 meses",
+      "starte": "2023",
+      "titlee": "Bootcamp Data Science",
+      "estadoe": "Cursando",
+      "schoole": "El profe Alejo",
+      "usuario_id": 1
+    },
+    {
+      "id": 19,
+      "ende": "2023",
+      "imge": "https://i.imgur.com/BNCHUv5.png",
+      "citye": "Online",
+      "timee": "6 meses",
+      "starte": "2023",
+      "titlee": "Bootcamp Data Science",
+      "estadoe": "Completado",
+      "schoole": "Alura Latan",
+      "usuario_id": 1
+    },
+    {
       "id": 20,
       "ende": "2023",
       "imge": "https://i.imgur.com/z5KJoV1.png",
@@ -8,7 +32,7 @@
       "timee": "6 meses",
       "starte": "2023",
       "titlee": "Data Science",
-      "estadoe": "Cursando",
+      "estadoe": "Completado",
       "schoole": "Alura Latan",
       "usuario_id": 1
     },
@@ -262,6 +286,13 @@
   ],
     "hard_andsskills": [
     {
+      "id": 40,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/72px-Python.svg.png",
+      "nombre": "Phyton",
+      "porcentaje": 50,
+      "usuario_id": 1
+    },
+    {
       "id": 51,
       "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png",
       "nombre": "HTML",
@@ -421,6 +452,16 @@
   ],
   "proyectos": [
     {
+      "id": 1000,
+      "fecha": "Julio 2023",
+      "proyectos": "Chat Bot + wWhatsapp",
+      "usuario_id": 1,
+      "descripcion": "Es un proyecto de Ciencia de Datos en el cual se combina un chat bot con tres métodos para responder a diálogos o preguntas (usando transformers, TfidfVectorizer, entre otras) y un programa controlador del Whatsapp para pc y del cuadro de diálogo del chat bot anteriormente mencionado.",
+      "img_proyecto": "https://i.imgur.com/1xm7yAj.png",
+      "url_proyecto": "https://youtu.be/DRRLIYxDUBA",
+      "img_lenguajes": "Phyton"
+    },
+    {
       "id": 1100,
       "fecha": "Julio 2023",
       "proyectos": "E-Commerce",
@@ -428,7 +469,7 @@
       "descripcion": "E-commerce desarrollada con angular/matirial, CRUD y login, DDBB con Firestore. Deploy en Firebase. ",
       "img_proyecto": "https://i.imgur.com/QCBQE5S.png",
       "url_proyecto": "https://mystore-all.web.app/products",
-      "img_lenguajes": "JavaScript"
+      "img_lenguajes": "Phyton"
     },
     {
       "id": 1150,
