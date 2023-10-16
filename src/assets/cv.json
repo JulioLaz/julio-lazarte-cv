@@ -454,9 +454,9 @@
     {
       "id": 1000,
       "fecha": "Julio 2023",
-      "proyectos": "Chat Bot + wWhatsapp",
+      "proyectos": "Chat Bot + Whatsapp",
       "usuario_id": 1,
-      "descripcion": "Es un proyecto de Ciencia de Datos en el cual se combina un chat bot con tres métodos para responder a diálogos o preguntas (usando transformers, TfidfVectorizer, entre otras) y un programa controlador del Whatsapp para pc y del cuadro de diálogo del chat bot anteriormente mencionado.",
+      "descripcion": "Es un proyecto de Ciencia de Datos en el cual se combina un chat bot(usando transformers, TfidfVectorizer, entre otras) y un controlador del Whatsapp.",
       "img_proyecto": "https://i.imgur.com/1xm7yAj.png",
       "url_proyecto": "https://youtu.be/DRRLIYxDUBA",
       "img_lenguajes": "Phyton"

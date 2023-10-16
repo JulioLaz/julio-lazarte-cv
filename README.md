@@ -16,3 +16,9 @@ firebase deploy --only hosting
 
 ## Agregar elementos al CV: cv.json
 
+## Cargar CV: copiar el vinculo del CV guardado en Drive como shared:
+
+Modificar el about.component.ts
+
+ejemplo: 
+  url_cv:string='https://drive.google.com/file/d/1GhzX-xTdkEyp2ibiEqp1ui9pkoQut9by/view?usp=sharing'
