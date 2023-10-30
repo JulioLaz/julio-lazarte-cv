@@ -16,6 +16,7 @@ export class CarouselComponent implements OnInit, OnDestroy {
   data_skills: any;
   data_social: any;
   data_idiomas: any;
+  slides: number = 0;
 
   constructor(private datajsonservice: DatajsonService) {}
 
@@ -66,6 +67,9 @@ export class CarouselComponent implements OnInit, OnDestroy {
     return parseFloat(porcentajeString);
   }
 
-
+  selectSlide(slideNumber: number): void {
+    this.slides = slideNumber;
+    this.stopSlideAuto(); // Detén la transición automática del carrusel
+  }
 
 }

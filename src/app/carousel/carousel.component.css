@@ -32,7 +32,14 @@
   text-align: center;
   font-weight: 400;
   width: 5rem;
+
+  /* transition: width 1s, transform 1s;
+  transform: translateX(50%);
+  transform: scale(1); */
 }
+
+
+
 
 .diapositivas_btn {
   background: none !important;
@@ -452,5 +459,24 @@
 @media (max-width: 1100px) {
   .display_off{
     display:initial;
+  }
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    color: #48db4f;
+
+  }
+  100% {
+    transform: scale(1);
+
   }
 }

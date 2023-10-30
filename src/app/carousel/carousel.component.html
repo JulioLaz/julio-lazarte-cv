@@ -35,54 +35,53 @@
 <div class="carousel-indicators">
   <div class=" box_shadow">
     <!-- btn 1 -->
-    <div appHighlightButton  class="diapositivas_div fa_color_btn diapositiva_inicial pt-4 diapositivas_active active">
-      <p class="diapositivas_span"><i class="fa_color_btn fa fa-solid fa-user"></i>
+    <div appHighlightButton   class="diapositivas_div fa_color_btn diapositiva_inicial pt-4 diapositivas_active active">
+      <p [ngClass]="{'active': slides === 0, 'pulse': slides === 0}" class="diapositivas_span"><i class="fa_color_btn fa fa-solid fa-user"></i>
         About_me</p>
       <button id="primer" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide-to="0" aria-current="true" aria-label="Slide 0"
-        style="width: 100%;background: none !important;height: 4rem;"></button>
+        style="width: 100%;background: none !important;height: 4rem;" (click)="selectSlide(0)"></button>
     </div>
 
     <!-- btn 2 -->
     <div appHighlightButton  class="diapositivas_div fa_color_btn diapositivas_active">
-      <p class="diapositivas_span"><i class="fa_color_btn fa fa-solid fa-graduation-cap"></i>
+      <p [ngClass]="{'active': slides === 1, 'pulse': slides === 1}"  class="diapositivas_span"><i class="fa_color_btn fa fa-solid fa-graduation-cap"></i>
         Education</p>
       <button id="primer" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="1" aria-label="Slide 1"></button>
+        data-bs-slide-to="1" aria-label="Slide 1" (click)="selectSlide(1)"></button>
     </div>
 
     <!-- btn 3 -->
     <div appHighlightButton  class="diapositivas_div fa_color_btn diapositivas_active">
-      <p class="diapositivas_span"><i class="fa_color_btn fa fa-solid fa-laptop"></i>
+      <p [ngClass]="{'active': slides === 2, 'pulse': slides === 2}" class="diapositivas_span"><i class="fa_color_btn fa fa-solid fa-laptop"></i>
         Proyectos</p>
       <button id="segundo" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="2" aria-label="Slide 2"></button>
+        data-bs-slide-to="2" aria-label="Slide 2" (click)="selectSlide(2)"></button>
     </div>
 
     <!-- btn 4 -->
     <div appHighlightButton  class="diapositivas_div fa_color_btn diapositivas_active">
-      <p class="diapositivas_span"><i class="fa_color_btn fa fa-code"></i>
+      <p [ngClass]="{'active': slides === 3, 'pulse': slides === 3}" class="diapositivas_span"><i class="fa_color_btn fa fa-code"></i>
         Certificates</p>
       <button id="tercero" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="3" aria-label="Slide 3"></button>
+        data-bs-slide-to="3" aria-label="Slide 3" (click)="selectSlide(3)"></button>
     </div>
 
     <!-- btn 5 -->
     <div appHighlightButton  class="diapositivas_div fa_color_btn diapositivas_active">
-      <p class="diapositivas_span"><i class="fa_color_btn fa fa-briefcase"></i>
+      <p [ngClass]="{'active': slides === 4, 'pulse': slides === 4}" class="diapositivas_span"><i class="fa_color_btn fa fa-briefcase"></i>
         Experience</p>
       <button id="cuarto" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="4" aria-label="Slide 4"></button>
+        data-bs-slide-to="4" aria-label="Slide 4" (click)="selectSlide(4)"></button>
     </div>
 
     <!-- btn 6 -->
     <div appHighlightButton  class="diapositivas_div fa_color_btn diapositiva_final diapositivas_active" >
-      <i class="fa_color_btn fa fas fa-cogs"></i>
-      <p class="diapositivas_span ">
+      <i [ngClass]="{'active': slides === 5, 'pulse': slides === 5}" class="fa_color_btn fa fas fa-cogs"></i>
+      <p [ngClass]="{'active': slides === 5, 'pulse': slides === 5}" class="diapositivas_span ">
         My Skills</p>
       <button id="quinto" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="5" aria-label="Slide 5">
-      </button>
+        data-bs-slide-to="5" aria-label="Slide 5" (click)="selectSlide(5)"></button>
     </div>
 
   </div>
