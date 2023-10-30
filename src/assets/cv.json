@@ -442,8 +442,9 @@
       "img": "https://avatars.githubusercontent.com/u/108642139?v=4",
       "city": "Argentina, Tucumán",
       "edad": "45 años",
-      "about": "La ciencia es mi pasión. Mi vida es crecimiento intelectual y espiritual. La informatica es un universo ilimitado donde puedo desarrollarme libremente. Me esfuerzo en lograr un mundo ordenado, unido a personas que son empáticas al bien de todos.",
-      "about_me": "Soy Julio Lazarte, hace tres años comencé con programación y obtuve los títulos principalmente de full stack developer Jr. y actualmente completando data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy de Argentina, Tucumán. Mi enfoque actual es crear SPA con angular con diseño personalizado desde el frontend y mantener el control y la seguridad con el backend.",
+      "about_me": "En la Ciencia de Datos descubrí mi pasión, por lo que estoy especializándome en esta área (en especial MLOps). En el año 2019 inicié con programación y obtuve los títulos principalmente de full stack developer Jr. y luego de data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy Argentino.",
+      "about_me_01": "La ciencia es mi pasión. Mi vida es crecimiento intelectual y espiritual. La informatica es un universo ilimitado donde puedo desarrollarme libremente. Me esfuerzo en lograr un mundo ordenado, unido a personas que son empáticas al bien de todos.",
+      "about_me_00": "Soy Julio Lazarte, hace tres años comencé con programación y obtuve los títulos principalmente de full stack developer Jr. y actualmente completando data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy de Argentina, Tucumán. Mi enfoque actual es crear SPA con angular con diseño personalizado desde el frontend y mantener el control y la seguridad con el backend.",
       "title": "Profesor de Filosofía    &    Full Stack Developer Jr",
       "nombre": "Julio Alberto",
       "apellido": "Lazarte",
@@ -451,6 +452,16 @@
     }
   ],
   "proyectos": [
+    {
+      "id": 999,
+      "fecha": "Julio 2023",
+      "proyectos": "Robot Trading",
+      "usuario_id": 1,
+      "descripcion": "Proyecto de Data Science (#ElProfeAlejo - bootcamp octubre/2023): obtener decisión de compra/venta/espera mediante algoritmo de decisión.Indicadores: RSI, MA50, MA200, MACD Y MACD_SIGNAL. Método predictivo: modelo ARIMA y Random Forest Regressor",
+      "img_proyecto": "https://i.imgur.com/RfH4nkk.png",
+      "url_proyecto": "https://youtu.be/aebFvd9EHl8",
+      "img_lenguajes": "Phyton"
+    },
     {
       "id": 1000,
       "fecha": "Julio 2023",
