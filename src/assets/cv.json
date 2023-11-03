@@ -145,6 +145,16 @@
     {
       "id": 1,
       "ende": "Present",
+      "citye": "Online",
+      "cargoe": "Latam Helper",
+      "starte": "2023",
+      "nombree": "Alura Latam",
+      "usuario_id": 1,
+      "descripcione": "Ayudante en el Bootcamp de Ciencia de Datos"
+    },
+    {
+      "id": 10,
+      "ende": "Present",
       "citye": "Tucumán, Argentina",
       "cargoe": "Docente",
       "starte": "2015",
@@ -153,7 +163,7 @@
       "descripcione": "Profesor de Filosofía"
     },
     {
-      "id": 2,
+      "id": 20,
       "ende": "2014",
       "citye": "Catamarca, Argentina",
       "cargoe": "Administrador",
@@ -163,7 +173,7 @@
       "descripcione": "Tareas generales administrativas y técnicas"
     },
     {
-      "id": 3,
+      "id": 30,
       "ende": "2010",
       "citye": "Tucumán, Argentina",
       "cargoe": "Administrativo",
@@ -173,7 +183,7 @@
       "descripcione": "Tareas generales administrativas y técnicas"
     },
     {
-      "id": 4,
+      "id": 40,
       "ende": "2007",
       "citye": "La Florida, Tucumán, Arg.",
       "cargoe": "Asistente de fabricación",
@@ -183,7 +193,7 @@
       "descripcione": "Control del proceso de fabricación de azucar"
     },
     {
-      "id": 5,
+      "id": 50,
       "ende": "2007",
       "citye": "La Florida, Tucumán, Argentina",
       "cargoe": "Químico",
@@ -193,7 +203,7 @@
       "descripcione": "Químico de control de calidad de azucar"
     },
     {
-      "id": 6,
+      "id": 60,
       "ende": "2003",
       "citye": "El Siambon, Tucumán, Argentina",
       "cargoe": "Técnico en mantenimiento",
@@ -454,7 +464,7 @@
   "proyectos": [
     {
       "id": 999,
-      "fecha": "Julio 2023",
+      "fecha": "Octubre 2023",
       "proyectos": "Robot Trading",
       "usuario_id": 1,
       "descripcion": "Proyecto de Data Science (#ElProfeAlejo - bootcamp octubre/2023): obtener decisión de compra/venta/espera mediante algoritmo de decisión.Indicadores: RSI, MA50, MA200, MACD Y MACD_SIGNAL. Método predictivo: modelo ARIMA y Random Forest Regressor",
