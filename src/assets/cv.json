@@ -463,13 +463,33 @@
   ],
   "proyectos": [
     {
-      "id": 999,
+      "id": 997,
+      "fecha": "Noviembre 2023",
+      "proyectos": "Supermarker Sales Analysis",
+      "usuario_id": 1,
+      "descripcion": "Proyecto de Data Science: Una cadena de supermercados que opera en Brasil quiere obtener insights sobre la venta de sus productos. Se analizarán los datos recopilados respondiendo a distintas necesidades que visualizaremos seguidamente.",
+      "img_proyecto": "https://i.imgur.com/mIiYqz7.png",
+      "url_proyecto": "https://github.com/JulioLaz/Supermarket_Sales_Analysis.git",
+      "img_lenguajes": "Phyton"
+    },
+    {
+      "id": 998,
       "fecha": "Octubre 2023",
       "proyectos": "Robot Trading",
       "usuario_id": 1,
       "descripcion": "Proyecto de Data Science (#ElProfeAlejo - bootcamp octubre/2023): obtener decisión de compra/venta/espera mediante algoritmo de decisión.Indicadores: RSI, MA50, MA200, MACD Y MACD_SIGNAL. Método predictivo: modelo ARIMA y Random Forest Regressor",
       "img_proyecto": "https://i.imgur.com/RfH4nkk.png",
       "url_proyecto": "https://youtu.be/aebFvd9EHl8",
+      "img_lenguajes": "Phyton"
+    },
+    {
+      "id": 999,
+      "fecha": "Octubre 2023",
+      "proyectos": "Clasificador de Sentimientos",
+      "usuario_id": 1,
+      "descripcion": "Proyecto de Data Science: para clasificar frases según su #sentimiento. La aplicación del proyecto se realizó con #python: primero en google colab entrené el modelo Word2Vec con el clasificador de textos Logistic Regression, además se clasifica con TextBlob y con SentimentIntensityAnalyzer",
+      "img_proyecto": "https://i.imgur.com/FbpFecx.png",
+      "url_proyecto": "https://github.com/JulioLaz/analisis_sentimiento.git",
       "img_lenguajes": "Phyton"
     },
     {

@@ -7,9 +7,8 @@ import { DatajsonService } from '../shared/datajson.service';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  url_cv:string='https://drive.google.com/file/d/1-X3m8ErCrhNAkd6YmKrvaiJbInqSB3Gk/view?usp=sharing'
-  // url_cv:string='https://drive.google.com/file/d/1yZspsXLQUj_4w-CJhpPaKGC9L5M1m4cj/view?usp=sharing'
-  // url_cv:string='https://drive.google.com/file/d/1GhzX-xTdkEyp2ibiEqp1ui9pkoQut9by/view?usp=sharing' ##anterior
+  // CARGA CV
+  url_cv:string='https://drive.google.com/file/d/1ZMaWm0VuIqoqiS6ZT92wfcp8F3SD7Vy4/view?usp=sharing' //CARGAR URL DEL CV
   about: any;
   subtitles = ['Data Scientist Jr.', 'Full Stack Developer Jr.', 'Philosophy teacher'];
   currentIndex = 0;
