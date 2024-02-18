@@ -3,7 +3,7 @@
   height: 72vh;
   width: 50vw;
   border-radius: 0 10px 10px 0;
-  background-color: azure;
+  background-color: rgba(234, 246, 246, 0.9);
   left: 1rem;
 }
 
@@ -33,13 +33,7 @@
   font-weight: 400;
   width: 5rem;
 
-  /* transition: width 1s, transform 1s;
-  transform: translateX(50%);
-  transform: scale(1); */
 }
-
-
-
 
 .diapositivas_btn {
   background: none !important;
@@ -56,7 +50,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: aliceblue;
+  /* background-color: rgba(227, 237, 245,.8); */
+  background-color: rgba(234, 246, 246, 0.9);
   height: 5.5rem;
   color: gray;
   align-items: center;
@@ -102,8 +97,6 @@
   display: flex;
   flex-direction: row;
 }
-
-
 
 .about_me_head {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Poppins;
@@ -170,7 +163,7 @@
 .line {
   width: 95%;
   height: 1px;
-  background-color: rgb(218, 216, 216);
+  background-color: rgb(159, 157, 157);
 }
 
 .date {
@@ -310,11 +303,6 @@
   color: gray;
 }
 
-.img {
-  width: 2.5rem;
-  justify-content: center;
-  margin-right: .5rem;
-}
 
 .head_title {
   display: flex;
@@ -368,10 +356,10 @@
 }
 
 .btn_proyect {
-  width: 40%;
+  width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -422,8 +410,8 @@
 
 /* btn de proyect at efect infinite */
 .btn-clickme {
-  animation: clickme 1.5s infinite;
-  transition: background-color 0.3s;
+  animation: clickme 1.6s infinite;
+  transition: background-color 0.4s;
 }
 
 /* Define la animación */
@@ -433,7 +421,7 @@
     color: black; /* Color de texto original */
   }
   50% {
-    background-color: #5c7da4; /* Color de fondo intermedio */
+    background-color: #c1d2e7; /* Color de fondo intermedio */
     color: white; /* Color de texto intermedio */
   }
 }
@@ -479,4 +467,19 @@
     transform: scale(1);
 
   }
+}
+
+.img {
+  /* width: 3rem; */
+  /* height: 200px; */
+  justify-content: center;
+  margin-right: .5rem;
+}
+
+.img-recortada {
+
+  width: 300px !important;
+  object-fit: cover;
+  object-position: center top;
+  height: 170px !important;
 }

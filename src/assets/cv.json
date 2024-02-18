@@ -448,13 +448,15 @@
   "persona": [
     {
       "id": 1,
-      "email": "julioalazarte@yahoo.com",
+      "email": "julioalbertolazarte00@gmail.com",
+      "email_00": "julioalazarte@yahoo.com",
       "img": "https://avatars.githubusercontent.com/u/108642139?v=4",
       "city": "Argentina, Tucumán",
       "edad": "45 años",
-      "about_me": "En la Ciencia de Datos descubrí mi pasión, por lo que estoy especializándome en esta área (en especial MLOps). En el año 2019 inicié con programación y obtuve los títulos principalmente de full stack developer Jr. y luego de data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy Argentino.",
-      "about_me_01": "La ciencia es mi pasión. Mi vida es crecimiento intelectual y espiritual. La informatica es un universo ilimitado donde puedo desarrollarme libremente. Me esfuerzo en lograr un mundo ordenado, unido a personas que son empáticas al bien de todos.",
-      "about_me_00": "Soy Julio Lazarte, hace tres años comencé con programación y obtuve los títulos principalmente de full stack developer Jr. y actualmente completando data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy de Argentina, Tucumán. Mi enfoque actual es crear SPA con angular con diseño personalizado desde el frontend y mantener el control y la seguridad con el backend.",
+      "about_me": "Soy Julio Lazarte, científico de datos especializado en el análisis y visualización. Mi objetivo es lograr insight que aporten valor a las necesidades de empresas, para optimizar recursos, reducir gastos, prevenir pérdidas, generar mayores ingresos económico.\nMi formación tiene distintos pilares, por un lado en ciencias exactas con ingeniería, y por otro lado con formación humanística con filosofía.\nAdemás de formarme como Full stack Developer, actualmente me estoy profesionalizando en Ciencias de Datos en donde encontré mi pasión.",
+      "about_me_01": "En la Ciencia de Datos descubrí mi pasión, por lo que estoy especializándome en esta área (en especial MLOps). En el año 2019 inicié con programación y obtuve los títulos principalmente de full stack developer Jr. y luego de data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy Argentino.",
+      "about_me_02": "La ciencia es mi pasión. Mi vida es crecimiento intelectual y espiritual. La informatica es un universo ilimitado donde puedo desarrollarme libremente. Me esfuerzo en lograr un mundo ordenado, unido a personas que son empáticas al bien de todos.",
+      "about_me_03": "Soy Julio Lazarte, hace tres años comencé con programación y obtuve los títulos principalmente de full stack developer Jr. y actualmente completando data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy de Argentina, Tucumán. Mi enfoque actual es crear SPA con angular con diseño personalizado desde el frontend y mantener el control y la seguridad con el backend.",
       "title": "Profesor de Filosofía    &    Full Stack Developer Jr",
       "nombre": "Julio Alberto",
       "apellido": "Lazarte",
@@ -463,14 +465,40 @@
   ],
   "proyectos": [
     {
+      "id": 995,
+      "fecha": "Enero 2024",
+      "proyectos": "COVID19 Analytics",
+      "usuario_id": 1,
+      "descripcion": "Proyecto de Data Science: Análisis del COVID19 entre los países más afectados comparandolos con Argentina.",
+      "img_proyecto": "https://data.bloggif.com/distant/user/store/5/d/4/e/223511ef57ca5fd01f97bf10e1f6e4d5.gif",
+      "url_proyecto": "https://github.com/JulioLaz/covid19_analytics",
+      "url_presentacion": "https://drive.google.com/file/d/1ziTzsNIa5MGtEQQSudXgdZwed3eyiPLQ/view?usp=sharing",
+      "presentacion_name": "Presentación",
+      "img_lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn"
+    },
+    {
+      "id": 996,
+      "fecha": "Diciembre 2023",
+      "proyectos": "Credit Scoring Prediction",
+      "usuario_id": 1,
+      "descripcion": "Proyecto de Data Science: predicción de aceptación crediticia mediante clasificación binaria.",
+      "img_proyecto": "https://data.bloggif.com/distant/user/store/4/5/6/c/3dab381fd3104fd859619ec8f417c654.gif",
+      "url_proyecto": "https://www.linkedin.com/feed/update/urn:li:activity:7149742441250684928/",
+      "url_presentacion": "https://docs.google.com/document/d/e/2PACX-1vSMM760vAakmOgQUkxk1BwSxkJPHJFi7dpW8E0Yp0AHGyqGUX5T9k-DPufksjbUB6anNyZq-_1M5vK7/pub",
+      "presentacion_name": "Presentación",
+      "img_lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn, flask"
+    },
+    {
       "id": 997,
       "fecha": "Noviembre 2023",
       "proyectos": "Supermarker Sales Analysis",
       "usuario_id": 1,
       "descripcion": "Proyecto de Data Science: Una cadena de supermercados que opera en Brasil quiere obtener insights sobre la venta de sus productos. Se analizarán los datos recopilados respondiendo a distintas necesidades que visualizaremos seguidamente.",
-      "img_proyecto": "https://i.imgur.com/mIiYqz7.png",
+      "img_proyecto": "https://data.bloggif.com/distant/user/store/0/d/1/b/34bc919f6279066e4ab517d4185bb1d0.gif",
       "url_proyecto": "https://github.com/JulioLaz/Supermarket_Sales_Analysis.git",
-      "img_lenguajes": "Phyton"
+      "url_presentacion": "https://docs.google.com/presentation/d/e/2PACX-1vTVyOOyEXpsN9xW9KmHVzuWuZ2nSOoxz_6IW7dmUH-OjKOe5OJN9mPWWZBT-XGgAjoThdzCgBCI6Fqh/pub?start=false&loop=false&delayms=3000",
+      "presentacion_name": "Presentación",
+      "img_lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn"
     },
     {
       "id": 998,
@@ -480,7 +508,7 @@
       "descripcion": "Proyecto de Data Science (#ElProfeAlejo - bootcamp octubre/2023): obtener decisión de compra/venta/espera mediante algoritmo de decisión.Indicadores: RSI, MA50, MA200, MACD Y MACD_SIGNAL. Método predictivo: modelo ARIMA y Random Forest Regressor",
       "img_proyecto": "https://i.imgur.com/RfH4nkk.png",
       "url_proyecto": "https://youtu.be/aebFvd9EHl8",
-      "img_lenguajes": "Phyton"
+      "img_lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, yfinance, ta, time, pytz, datetime, flask"
     },
     {
       "id": 999,
@@ -490,7 +518,7 @@
       "descripcion": "Proyecto de Data Science: para clasificar frases según su #sentimiento. La aplicación del proyecto se realizó con #python: primero en google colab entrené el modelo Word2Vec con el clasificador de textos Logistic Regression, además se clasifica con TextBlob y con SentimentIntensityAnalyzer",
       "img_proyecto": "https://i.imgur.com/FbpFecx.png",
       "url_proyecto": "https://github.com/JulioLaz/analisis_sentimiento.git",
-      "img_lenguajes": "Phyton"
+      "img_lenguajes": "Phyton: pandas, numpy, spacy, textblob, nltk, pickle, gensim, flask, googletrans"
     },
     {
       "id": 1000,
@@ -510,7 +538,7 @@
       "descripcion": "E-commerce desarrollada con angular/matirial, CRUD y login, DDBB con Firestore. Deploy en Firebase. ",
       "img_proyecto": "https://i.imgur.com/QCBQE5S.png",
       "url_proyecto": "https://mystore-all.web.app/products",
-      "img_lenguajes": "Phyton"
+      "img_lenguajes": "JavaScript"
     },
     {
       "id": 1150,
@@ -530,7 +558,7 @@
       "descripcion": "Análisis de Forbes 2000.",
       "img_proyecto": "https://i.imgur.com/WKVy8sM.png",
       "url_proyecto": "https://docs.google.com/presentation/d/1HkjXzWNvVuX7ByTFgPu9le_RoEecfbmWU1KMof950dY/edit?usp=sharing",
-      "img_lenguajes": "JavaScript"
+      "img_lenguajes": "Python"
     },
     {
       "id": 900,

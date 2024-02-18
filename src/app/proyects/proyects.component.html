@@ -8,14 +8,27 @@
 
   <div class="card card_exp"  *ngFor="let item of data_proyect">
     <div class="card-body card_body">
+      <!-- <div class="" style="width: 60%"> -->
+        <div class="" style="width: 100%">
+          <h5 class="card-title text-center m-2 mt-4 pt-3 w-100">{{item.proyectos}}</h5>
+          <div class="gradient-line m-2"></div>
+
       <div class="btn_proyect m-2 " >
-        <img src="{{item.img_proyecto}}" class="card-img-top w-100 rounded" alt="img_proyecto">
+        <!-- <img src="{{item.img_proyecto}}" class="card-img-top w-100 rounded img-recortada" alt="img_proyecto" > -->
+        <a [href]="item.url_presentacion" target="blank">
+          <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class=" rounded img-recortada" alt="img_proyecto">
+          <!-- <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada" alt="img_proyecto"> -->
+        </a>
+
+        <!-- <a *ngIf="item.presentacion_name" [href]="item.url_presentacion" target="blank">
+          <button class="btn btn-outline-secondary btn-sm m-2 btn-clickme">{{item.presentacion_name}}</button>
+        </a> -->
+
         <a href={{item.url_proyecto}} target="blanck">
           <button class="btn btn-outline-secondary btn-sm m-2 btn-clickme">Go project</button>
         </a>
       </div>
-      <div class="" style="width: 60%">
-        <h5 class="card-title text-center m-2 mt-4 pt-3 w-100">{{item.proyectos}}</h5>
+
         <div class="gradient-line m-2"></div>
         <p class="m-2 w-100 ">{{item.descripcion}} </p>
         <div class="line m-2"></div>

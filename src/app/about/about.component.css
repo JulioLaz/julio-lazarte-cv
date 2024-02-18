@@ -9,9 +9,18 @@
 .container {
   display: flex;
   justify-content: space-between;
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255,.95);
+  background-color: rgba(242, 247, 247, 0.95);
+
+  /* background-image: url('https://i.imgur.com/PlsIDeW.png'); */
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
   align-items: center;
   justify-content: center;
+  opacity: 0.5; */
 }
 
 .opened {
@@ -264,7 +273,8 @@ ul {
   left: 0;
   width: 100%;
   height: 100vh;
-  z-index: -100;
+  z-index: -100000
+  /* z-index: 100000 */  /* TRAER AL FRENTE */
 }
 
 .bg-bubbles li {
@@ -272,11 +282,17 @@ ul {
   display: flex;
   width: 40px;
   height: 40px;
-  background-color: rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(237, 234, 234,.3);
+  background-color: rgba(255, 255, 255, 0.1);
   bottom: -160px;
   animation: square 15s infinite;
   transition-timing-function: linear;
-  color: rgba(250, 235, 215,.4);
+  /* color: rgba(240, 239, 235, 0.8); */
+  color:gray;
+  /* color:rgba(240, 244, 247,.8); */
+  color:darkblue;
+  color:rgba(240, 244, 247,.8);
+  /* color: rgba(166, 164, 160, 0.8); */
   font-size: 1.2rem;
   font-weight: 700;
   animation-fill-mode: both;
@@ -311,14 +327,13 @@ ul {
   width: 120px;
   height: 120px;
   animation-duration: 12s;
-  background-color: rgba(255, 255, 255, 0.25);
   animation-delay: 3s;
 }
 
 .bg-bubbles li:nth-child(5) {
   left: 70%;
-  width: 75px;
-  height: 75px;
+  width: 85px;
+  height: 85px;
   animation-delay: 4s;
 }
 
