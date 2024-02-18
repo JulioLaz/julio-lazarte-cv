@@ -116,6 +116,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   .about_me_head {
     width: 80%;
@@ -250,8 +251,6 @@
 
 .diapositiva_inicial {
   border-radius: 5px 5px 0 0;
-
-
 }
 
 .diapositiva_final {
@@ -482,4 +481,22 @@
   object-fit: cover;
   object-position: center top;
   height: 170px !important;
+}
+
+.date_btn {
+  padding: 0px 5px 4px 5px !important;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.fs_leguajes{
+    font-size: calc(6px +  0.8vmin) !important;
+}
+
+.fs_description{
+    font-size: calc(7px +  0.85vmin) !important;
 }

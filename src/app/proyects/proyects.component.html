@@ -15,7 +15,7 @@
 
       <div class="btn_proyect m-2 " >
         <!-- <img src="{{item.img_proyecto}}" class="card-img-top w-100 rounded img-recortada" alt="img_proyecto" > -->
-        <a [href]="item.url_presentacion" target="blank">
+        <a [href]="item.url_presentacion" target="blank" >
           <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class=" rounded img-recortada" alt="img_proyecto">
           <!-- <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada" alt="img_proyecto"> -->
         </a>
@@ -24,16 +24,17 @@
           <button class="btn btn-outline-secondary btn-sm m-2 btn-clickme">{{item.presentacion_name}}</button>
         </a> -->
 
-        <a href={{item.url_proyecto}} target="blanck">
-          <button class="btn btn-outline-secondary btn-sm m-2 btn-clickme">Go project</button>
-        </a>
       </div>
 
+      <a href={{item.url_proyecto}} target="blanck">
+        <button class="btn-outline-secondary btn-sm btn-clickme date_btn">Go to project</button>
+      </a>
+
         <div class="gradient-line m-2"></div>
-        <p class="m-2 w-100 ">{{item.descripcion}} </p>
+        <p class="m-2 w-100 fs_description">{{item.descripcion}} </p>
         <div class="line m-2"></div>
 
-        <div class="m-2 text-end">{{item.img_lenguajes}}</div>
+        <div class="m-2 text-end fs_leguajes">{{item.lenguajes}}</div>
         <span class="date_proyect" style="justify-content: end;">{{item.fecha}}</span>
 
       </div>

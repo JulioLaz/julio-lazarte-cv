@@ -474,7 +474,7 @@
       "url_proyecto": "https://github.com/JulioLaz/covid19_analytics",
       "url_presentacion": "https://drive.google.com/file/d/1ziTzsNIa5MGtEQQSudXgdZwed3eyiPLQ/view?usp=sharing",
       "presentacion_name": "Presentación",
-      "img_lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn"
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn"
     },
     {
       "id": 996,
@@ -486,7 +486,7 @@
       "url_proyecto": "https://www.linkedin.com/feed/update/urn:li:activity:7149742441250684928/",
       "url_presentacion": "https://docs.google.com/document/d/e/2PACX-1vSMM760vAakmOgQUkxk1BwSxkJPHJFi7dpW8E0Yp0AHGyqGUX5T9k-DPufksjbUB6anNyZq-_1M5vK7/pub",
       "presentacion_name": "Presentación",
-      "img_lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn, flask"
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn, flask"
     },
     {
       "id": 997,
@@ -498,7 +498,7 @@
       "url_proyecto": "https://github.com/JulioLaz/Supermarket_Sales_Analysis.git",
       "url_presentacion": "https://docs.google.com/presentation/d/e/2PACX-1vTVyOOyEXpsN9xW9KmHVzuWuZ2nSOoxz_6IW7dmUH-OjKOe5OJN9mPWWZBT-XGgAjoThdzCgBCI6Fqh/pub?start=false&loop=false&delayms=3000",
       "presentacion_name": "Presentación",
-      "img_lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn"
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn"
     },
     {
       "id": 998,
@@ -508,7 +508,7 @@
       "descripcion": "Proyecto de Data Science (#ElProfeAlejo - bootcamp octubre/2023): obtener decisión de compra/venta/espera mediante algoritmo de decisión.Indicadores: RSI, MA50, MA200, MACD Y MACD_SIGNAL. Método predictivo: modelo ARIMA y Random Forest Regressor",
       "img_proyecto": "https://i.imgur.com/RfH4nkk.png",
       "url_proyecto": "https://youtu.be/aebFvd9EHl8",
-      "img_lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, yfinance, ta, time, pytz, datetime, flask"
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, yfinance, ta, time, pytz, datetime, flask"
     },
     {
       "id": 999,
@@ -518,7 +518,7 @@
       "descripcion": "Proyecto de Data Science: para clasificar frases según su #sentimiento. La aplicación del proyecto se realizó con #python: primero en google colab entrené el modelo Word2Vec con el clasificador de textos Logistic Regression, además se clasifica con TextBlob y con SentimentIntensityAnalyzer",
       "img_proyecto": "https://i.imgur.com/FbpFecx.png",
       "url_proyecto": "https://github.com/JulioLaz/analisis_sentimiento.git",
-      "img_lenguajes": "Phyton: pandas, numpy, spacy, textblob, nltk, pickle, gensim, flask, googletrans"
+      "lenguajes": "Phyton: pandas, numpy, spacy, textblob, nltk, pickle, gensim, flask, googletrans"
     },
     {
       "id": 1000,
@@ -528,7 +528,7 @@
       "descripcion": "Es un proyecto de Ciencia de Datos en el cual se combina un chat bot(usando transformers, TfidfVectorizer, entre otras) y un controlador del Whatsapp.",
       "img_proyecto": "https://i.imgur.com/1xm7yAj.png",
       "url_proyecto": "https://youtu.be/DRRLIYxDUBA",
-      "img_lenguajes": "Phyton"
+      "lenguajes": "Phyton"
     },
     {
       "id": 1100,
@@ -538,7 +538,7 @@
       "descripcion": "E-commerce desarrollada con angular/matirial, CRUD y login, DDBB con Firestore. Deploy en Firebase. ",
       "img_proyecto": "https://i.imgur.com/QCBQE5S.png",
       "url_proyecto": "https://mystore-all.web.app/products",
-      "img_lenguajes": "JavaScript"
+      "lenguajes": "JavaScript"
     },
     {
       "id": 1150,
@@ -548,7 +548,7 @@
       "descripcion": "Algoritmo de decisión de de compra/venta de bitcoin, con indicadores: tendencia, ma50, ma200, rsi, macd, masd-signal.",
       "img_proyecto": "https://i.imgur.com/2WMdl0b.png",
       "url_proyecto": "https://github.com/JulioLaz/bitcoin_trading_vsc/blob/main/bitcoin_trading.ipynb",
-      "img_lenguajes": "Python"
+      "lenguajes": "Python"
     },
     {
       "id": 1000,
@@ -558,7 +558,7 @@
       "descripcion": "Análisis de Forbes 2000.",
       "img_proyecto": "https://i.imgur.com/WKVy8sM.png",
       "url_proyecto": "https://docs.google.com/presentation/d/1HkjXzWNvVuX7ByTFgPu9le_RoEecfbmWU1KMof950dY/edit?usp=sharing",
-      "img_lenguajes": "Python"
+      "lenguajes": "Python"
     },
     {
       "id": 900,
@@ -568,7 +568,7 @@
       "descripcion": "Calculadora de consumo de cerveza según las condiciones climaticas",
       "img_proyecto": "https://i.imgur.com/kxSdC14.png",
       "url_proyecto": "https://calcular-consumo-cerveza.web.app/",
-      "img_lenguajes": "JavaScript / Python"
+      "lenguajes": "JavaScript / Python"
     },
     {
       "id": 800,
@@ -578,7 +578,7 @@
       "descripcion": "Obtiene los datos de una pagina de ventas de autos",
       "img_proyecto": "https://i.imgur.com/UxakqeQ.png",
       "url_proyecto": "https://github.com/JulioLaz/Web_Scraping",
-      "img_lenguajes": "Python"
+      "lenguajes": "Python"
     },
     {
       "id": 5,
@@ -588,7 +588,7 @@
       "descripcion": "Algoritmo de decisión de de compra/venta de bitcoin, con indicadores: tendencia, ma50, ma200, rsi, macd, masd-signal. Determina si es conveniente la compra/venta de Bitcoin Usando yahoo finance",
       "img_proyecto": "https://i.imgur.com/JBWF98L.png",
       "url_proyecto": "https://github.com/JulioLaz/bitcoin_trading.git",
-      "img_lenguajes": "Python"
+      "lenguajes": "Python"
     },
     {
       "id": 4,
@@ -598,7 +598,7 @@
       "descripcion": "Aplicacion para el registro de huespedes",
       "img_proyecto": "https://i.imgur.com/8mMt1zQ.jpg",
       "url_proyecto": "https://github.com/JulioLaz/HOTEL-ALURA.git",
-      "img_lenguajes": "JAVA"
+      "lenguajes": "JAVA"
     },
     {
       "id": 3,
@@ -608,7 +608,7 @@
       "descripcion": "Curriculum vitae",
       "img_proyecto": "https://i.imgur.com/jtMamWm.jpg",
       "url_proyecto": "https://julio-lazarte-cv.web.app/",
-      "img_lenguajes": "Front: JS - Back: JAVA - DDBB: mysql"
+      "lenguajes": "Front: JS - Back: JAVA - DDBB: mysql"
     },
     {
       "id": 2,
@@ -618,7 +618,7 @@
       "descripcion": "Encripta palabras con un método simple",
       "img_proyecto": "https://i.imgur.com/z0DV7ts.jpg",
       "url_proyecto": "https://juliolaz.github.io/",
-      "img_lenguajes": "JavaScript"
+      "lenguajes": "JavaScript"
     },
     {
       "id": 1,
@@ -628,7 +628,7 @@
       "descripcion": "Es un juego para decubrir palabras",
       "img_proyecto": "https://i.imgur.com/gvniyaq.jpeg",
       "url_proyecto": "https://juliolaz.github.io/juego-ahorcadito/",
-      "img_lenguajes": "JavaScript"
+      "lenguajes": "JavaScript"
     }
   ]
 }
