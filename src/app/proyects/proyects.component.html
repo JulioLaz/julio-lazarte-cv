@@ -6,29 +6,37 @@
 <div class="card-carousel main_title">
   <div class="line mb-2"></div>
 
-  <div class="card card_exp"  *ngFor="let item of data_proyect">
+  <div class="card card_exp" *ngFor="let item of data_proyect">
     <div class="card-body card_body">
       <!-- <div class="" style="width: 60%"> -->
-        <div class="" style="width: 100%">
-          <h5 class="card-title text-center m-2 mt-4 pt-3 w-100">{{item.proyectos}}</h5>
-          <div class="gradient-line m-2"></div>
+      <div class="" style="width: 100%">
+        <h5 class="card-title text-center m-2 mt-4 pt-3 w-100">{{item.proyectos}}</h5>
+        <div class="gradient-line m-2"></div>
 
-      <div class="btn_proyect m-2 " >
-        <!-- <img src="{{item.img_proyecto}}" class="card-img-top w-100 rounded img-recortada" alt="img_proyecto" > -->
-        <a [href]="item.url_presentacion" target="blank" >
-          <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class=" rounded img-recortada" alt="img_proyecto">
-          <!-- <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada" alt="img_proyecto"> -->
-        </a>
+        <div class="btn_proyect m-2 ">
+          <!-- <img src="{{item.img_proyecto}}" class="card-img-top w-100 rounded img-recortada" alt="img_proyecto" > -->
+          <!-- <a [href]="item.url_presentacion" target="blank" > -->
+          <!-- <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class=" rounded img-recortada" alt="img_proyecto"> -->
+          <!-- </a> -->
+          <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada"
+            alt="img_proyecto">
 
-        <!-- <a *ngIf="item.presentacion_name" [href]="item.url_presentacion" target="blank">
-          <button class="btn btn-outline-secondary btn-sm m-2 btn-clickme">{{item.presentacion_name}}</button>
-        </a> -->
+        </div>
 
-      </div>
-
-      <a href={{item.url_proyecto}} target="blanck">
-        <button class="btn-outline-secondary btn-sm btn-clickme date_btn">Go to project</button>
-      </a>
+        <div class="date_btn">
+          <a *ngIf="item.url_proyecto"  href={{item.url_proyecto}} target="blanck">
+            <button class="btn-outline-secondary btn-sm btn-clickme" style="border:1px solid rgb(208, 207, 207) !important;padding: 2px;" translate="no">Project</button>
+          </a>
+          <a *ngIf="item.url_presentacion" [href]="item.url_presentacion" target="_blank">
+            <button class="btn-outline-secondary btn-sm btn-clickme" style="margin-left: 5px;border:1px solid rgb(208, 207, 207) !important;padding: 2px;" translate="no">Slides</button>
+          </a>
+          <a *ngIf="item.app" [href]="item.app" target="_blank">
+            <button class="btn-outline-secondary btn-sm btn-clickme" style="margin-left: 5px;border:1px solid rgb(208, 207, 207) !important;padding: 2px;" translate="no">App</button>
+          </a>
+          <a *ngIf="item.youtube" [href]="item.youtube" target="_blank" style="margin-left: 5px;">
+            <svg height="36px" width="36px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="fill:#F61C0D;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"></path> </g> </g></svg>            <!-- <button class="btn-outline-secondary btn-sm btn-clickme" style="margin-left: 5px;border:1px solid rgb(208, 207, 207) !important;padding: 2px;" translate="no">App</button> -->
+          </a>
+        </div>
 
         <div class="gradient-line m-2"></div>
         <p class="m-2 w-100 fs_description">{{item.descripcion}} </p>

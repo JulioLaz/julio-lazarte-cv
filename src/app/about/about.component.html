@@ -7,6 +7,7 @@
           <img src="{{item.img}}" alt="">
 
           <div class="title">{{item.nombre}} {{item.apellido}} </div>
+          <div class="fs-2 m-1 fw-bold" translate="no">Data Scientist</div>
 
           <div class="subtitle-container m-3">
             <div *ngFor="let subtitle of subtitles; let i = index" class="subtitle" [class.active]="currentIndex === i">

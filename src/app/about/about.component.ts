@@ -12,7 +12,7 @@ export class AboutComponent implements OnInit {
   // url_cv:string='https://drive.google.com/file/d/1KaI5lxsa4CUAiamM5iG-I7THVByotUQV/view?usp=sharing' //CARGAR URL DEL CV
   // url_cv:string='https://drive.google.com/file/d/1ZMaWm0VuIqoqiS6ZT92wfcp8F3SD7Vy4/view?usp=sharing' //CARGAR URL DEL CV
   about: any;
-  subtitles = ['Data Scientist Jr.', 'Full Stack Developer Jr.', 'Philosophy teacher'];
+  subtitles = ['Data Analyst', 'Machine Learning', 'Data Visualization','business intelligence'];
   currentIndex = 0;
 
 

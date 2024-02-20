@@ -1,20 +1,20 @@
 <div class="">
   <div class="head_title">
     <i class="fa_color fa fa-briefcase"></i>
-    <h2 class="title-with-shadow">Skills</h2>
+    <h2 class="title-with-shadow" translate="no">Skills</h2>
   </div>
 
 <!-- SOCIAL -->
   <div class="line m-1"></div>
   <div class="title">
     <i class="fa_color fa fa-solid fa-users"></i>
-    <h3 class="title-with-shadow">Social</h3>
+    <h3 class="title-with-shadow" translate="no">Social</h3>
   </div>
 
   <div class="card-carousel" style="flex-direction: row;">
     <div class="m-3" *ngFor="let item of data_social">
       <div class="social">
-        <img class="img rounded " src="{{item.imgurl}}" alt="imgurl">
+        <img class="img_skills rounded " src="{{item.imgurl}}" alt="imgurl">
         <h3 class=" fs-6">{{item.nombre}} <span class="fs-5">{{item.porcentaje}}</span> <span class="fs-5">%</span>
         </h3>
       </div>
@@ -30,14 +30,14 @@
   <div class="line m-2"></div>
   <div class="title">
     <i class="fa_color fa fa-regular fa-flag"></i>
-    <h3 class="title-with-shadow">Idioms</h3>
+    <h3 class="title-with-shadow" translate="no">Idioms</h3>
   </div>
 
   <div class="card-carousel" style="flex-direction: row;">
     <div class="m-3" *ngFor="let item of data_idiomas">
 
       <div class="social">
-        <img class="img rounded " src="{{item.imgurl}}" alt="imgurl">
+        <img class="img_skills rounded " src="{{item.imgurl}}" alt="imgurl">
         <h3 class=" fs-6">{{item.nombre}} <span class="fs-5">{{item.porcentaje}}</span> <span class="fs-5">%</span>
         </h3>
       </div>

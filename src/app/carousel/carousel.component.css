@@ -407,7 +407,6 @@
   padding-right: .5rem;
 }
 
-/* btn de proyect at efect infinite */
 .btn-clickme {
   animation: clickme 1.6s infinite;
   transition: background-color 0.4s;
@@ -488,8 +487,8 @@
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
-  border: 1px solid greenyellow;
-  border-radius: 5px;
+  /* border: 1px solid greenyellow; */
+  /* border-radius: 5px; */
   padding: 0 5px;
 }
 
@@ -500,3 +499,35 @@
 .fs_description{
     font-size: calc(7px +  0.85vmin) !important;
 }
+
+.img_skills {
+  width: 3rem;
+  /* height: 200px; */
+  justify-content: center;
+  margin-right: .5rem;
+}
+
+/* #Layer_1 {
+  fill: #F61C0D;
+  transition: fill 0.3s;
+}
+
+#Layer_1:hover {
+  filter: brightness(0.8);
+} */
+
+#Layer_1 {
+  transition: fill .5s;
+  animation: brighten 1s infinite alternate;
+}
+
+@keyframes brighten {
+  0% {
+      fill: #F61C0D; /* Color inicial */
+  }
+  100% {
+    filter: brightness(.2);
+  }
+}
+
+
