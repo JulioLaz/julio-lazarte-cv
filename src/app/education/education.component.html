@@ -4,30 +4,33 @@
 </div>
 
 <div class="card-carousel main_title">
-<div class="line mb-2"></div>
+  <div class="line mb-2"></div>
 
-      <div class="card card_exp"  *ngFor="let item of data_edu">
-        <div class="card-body card_body">
-          <img src="{{item.imge}}" class="card-img-top m-3" alt="{{item.schoole}}" style="width: 30%;height: 65%;">
-          <div class="" style="width: 68%;padding: .5rem">
-            <div class="date_div">
-              <span class="date">{{item.starte}} - {{item.ende}}</span>
-              <span class="date">{{item.citye}}</span>
-            </div>
+  <div class="card card_exp" *ngFor="let item of data_edu">
+    <div class="card-body card_body">
+      <img src="{{item.imge}}" class="card-img-top m-3" alt="{{item.schoole}}" style="width: 30%;height: 65%;">
+      <div class="" style="width: 68%;padding: .5rem">
+        <div class="date_div">
+          <a *ngIf="item.url"  href={{item.url}} target="blanck">
+            <button class="btn-outline-secondary btn-sm btn-clickme" style="border:1px solid rgb(208, 207, 207) !important;padding: 2px" translate="no">web</button>
+          </a>
+          <span class="date">{{item.starte}} - {{item.ende}}</span>
+          <span class="date">{{item.citye}}</span>
+        </div>
 
-            <h6 class="card-title text-center mt-2">{{item.schoole}}</h6>
-            <div class="gradient-line"></div>
-            <p class="card-subtitle mb-2 mt-3 text-center">{{item.titlee}}</p>
-            <p class="card-subtitle mb-2 text-center">{{item.timee}}</p>
-            <div class="text-end">
-              <i class="fa fa-solid fa-check" *ngIf="item.estadoe=='Completado'"></i>
-              <i class="fa fa-solid fa-check alarmClock actual fs-5" *ngIf="item.estadoe=='Cursando'"></i>
-              <i class="fa fas fa-times" *ngIf="item.estadoe=='Incompleto'"></i>
-              <span class="fw-bold" [ngStyle]="{'color': item.estadoe === 'Cursando' ? '#56de5d' : 'inherit'}">
-                {{item.estadoe}}
-              </span>
-            </div>
-          </div>
+        <h6 class="card-title text-center mt-2">{{item.schoole}}</h6>
+        <div class="gradient-line"></div>
+        <p class="card-subtitle mb-2 mt-3 text-center fs-5 fw-bold" translate="no">{{item.titlee}}</p>
+        <p class="card-subtitle mb-2 text-center">{{item.timee}}</p>
+        <div class="text-end">
+          <i class="fa fa-solid fa-check" *ngIf="item.estadoe=='Completado'"></i>
+          <i class="fa fa-solid fa-check alarmClock actual fs-5" *ngIf="item.estadoe=='Cursando'"></i>
+          <i class="fa fas fa-times" *ngIf="item.estadoe=='Incompleto'"></i>
+          <span class="fw-bold" [ngStyle]="{'color': item.estadoe === 'Cursando' ? '#56de5d' : 'inherit'}">
+            {{item.estadoe}}
+          </span>
         </div>
       </div>
+    </div>
+</div>
 </div>

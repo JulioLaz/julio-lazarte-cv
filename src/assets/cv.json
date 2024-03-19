@@ -2,15 +2,16 @@
   "educacion": [
     {
       "id": 1,
-      "ende": "2023",
-      "imge": "https://i.imgur.com/8ixdXbJ.png",
+      "ende": "2024",
+      "imge": "https://i.imgur.com/uFyPLXv.png",
       "citye": "Online",
-      "timee": "6 meses",
+      "timee": "12 meses",
       "starte": "2023",
       "titlee": "Bootcamp Data Science",
       "estadoe": "Cursando",
       "schoole": "El profe Alejo",
-      "usuario_id": 1
+      "usuario_id": 1,
+      "url": "https://bootcampxperience.com/"
     },
     {
       "id": 19,
@@ -22,7 +23,8 @@
       "titlee": "Bootcamp Data Science",
       "estadoe": "Completado",
       "schoole": "Alura Latan",
-      "usuario_id": 1
+      "usuario_id": 1,
+      "url":"https://www.aluracursos.com/bootcamp-datos"
     },
     {
       "id": 20,
@@ -34,7 +36,8 @@
       "titlee": "Data Science",
       "estadoe": "Completado",
       "schoole": "Alura Latan",
-      "usuario_id": 1
+      "usuario_id": 1,
+      "url":"https://www.aluracursos.com/formacion-data-science"
     },
     {
       "id": 30,
@@ -46,7 +49,8 @@
       "titlee": "Front End Developer",
       "estadoe": "Completado",
       "schoole": "Alura Latam",
-      "usuario_id": 1
+      "usuario_id": 1,
+      "url":"https://www.aluracursos.com/cursos-online-front-end"
     },
     {
       "id": 40,
@@ -58,7 +62,8 @@
       "titlee": "Full Stack Developer Jr",
       "estadoe": "Completado",
       "schoole": "Argentina Programa",
-      "usuario_id": 1
+      "usuario_id": 1,
+      "url":"https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
     },
     {
       "id": 50,
@@ -67,7 +72,7 @@
       "citye": "Tucumán, Arg.",
       "timee": "4 años",
       "starte": "2000",
-      "titlee": "Profesor de FILOSOFIA",
+      "titlee": "Profesor de Filosofía",
       "estadoe": "Completado",
       "schoole": "Seminario Mayor",
       "usuario_id": 1
@@ -144,7 +149,7 @@
   "experiencia": [
     {
       "id": 1,
-      "ende": "Present",
+      "ende": "2024",
       "citye": "Online",
       "cargoe": "Latam Helper",
       "starte": "2023",
@@ -298,42 +303,42 @@
     {
       "id": 40,
       "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/72px-Python.svg.png",
-      "nombre": "Phyton",
+      "nombre": "Python",
       "porcentaje": 50,
       "usuario_id": 1
     },
     {
       "id": 51,
       "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png",
-      "nombre": "HTML",
+      "nombre": "html",
       "porcentaje": 80,
       "usuario_id": 1
     },
     {
       "id": 52,
       "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/375px-CSS3_logo.svg.png",
-      "nombre": "CSS",
+      "nombre": "css",
       "porcentaje": 80,
       "usuario_id": 1
     },
     {
       "id": 54,
       "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mysql.svg/75px-Mysql.svg.png",
-      "nombre": "MySQL",
+      "nombre": "mySQL",
       "porcentaje": 60,
       "usuario_id": 1
     },
     {
       "id": 55,
       "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Angular-logo.png/113px-Angular-logo.png",
-      "nombre": "ANGULAR",
-      "porcentaje": 65,
+      "nombre": "angular",
+      "porcentaje": 70,
       "usuario_id": 1
     },
     {
       "id": 56,
       "imgurl": "https://img.icons8.com/windows/512/github.png",
-      "nombre": "GitHub",
+      "nombre": "github",
       "porcentaje": 80,
       "usuario_id": 1
     },
@@ -347,7 +352,7 @@
     {
       "id": 58,
       "imgurl": "https://img.icons8.com/material-outlined/512/java-coffee-cup-logo.png",
-      "nombre": "JAVA",
+      "nombre": "Java",
       "porcentaje": 40,
       "usuario_id": 1
     },
@@ -356,13 +361,6 @@
       "imgurl": "https://img.icons8.com/external-tal-revivo-fresh-tal-revivo/2x/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-fresh-tal-revivo.png",
       "nombre": "TypeScript",
       "porcentaje": 40,
-      "usuario_id": 1
-    },
-    {
-      "id": 70,
-      "imgurl": "https://www.python.org/static/img/python-logo@2x.png",
-      "nombre": "Python",
-      "porcentaje": 50,
       "usuario_id": 1
     },
     {
@@ -465,6 +463,31 @@
   ],
   "proyectos": [
     {
+      "id": 993,
+      "fecha": " Marzo 2024",
+      "proyectos": "Consumer Spending Prediction",
+      "usuario_id": 1,
+      "descripcion": "Proyecto de Data Science: desarrollo de un modelo de machine learning que predice con precisión cuánto gastará un usuario al visitar dicho sitio web.",
+      "img_proyecto": "https://data.bloggif.com/distant/user/store/9/7/6/9/295848bfdfd7c2bb07089c0974d69679.gif",
+      "url_proyecto": "https://github.com/JulioLaz/Consumer_Spending_Prediction_final",
+      "url_presentacion": "https://docs.google.com/document/d/e/2PACX-1vQ35-uD6_F9F_apec8sDyLvSKMTEFxOnUC3wNFZJrpp21OjvGcG_Zh5RENIZFHXsbrs379Sc6uesmyk/pub",
+      "presentacion_name": "Presentación",
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn, xgboost"
+    },
+    {
+      "id": 994,
+      "fecha": "Febrero 2024",
+      "proyectos": "Breast Care: tumor",
+      "usuario_id": 1,
+      "descripcion": "Proyecto de ciencia de datos con machine learning utilizando Logistic Regression: predice si un tumor es maligno o benigno de acuerdo al conjunto de datos obtenidos de las características que se calculan a partir de una imagen digitalizada de una aspiración con aguja fina (PAAF) de una masa mamaria.",
+      "img_proyecto": "https://data.bloggif.com/distant/user/store/9/d/b/0/c642322bd0354e57887f08fcc4fe0bd9.gif",
+      "url_proyecto": "https://github.com/JulioLaz/breast_cancer_nb",
+      "url_presentacion": "https://docs.google.com/document/d/e/2PACX-1vT6ymI4Vh5vu5yHJli0GwgqfNtQ47m3_tPoK3Jf88-lfZCOMC-2MNwtfy6LdThYqesN1TSyFKH0Khx6/pub",
+      "presentacion_name": "Presentación",
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn",
+      "app":"https://breast-cancer-6c5r.onrender.com/"
+    },
+    {
       "id": 995,
       "fecha": "Enero 2024",
       "proyectos": "COVID19 Analytics",
@@ -515,7 +538,7 @@
     {
       "id": 999,
       "fecha": "Octubre 2023",
-      "proyectos": "Clasificador de Sentimientos",
+      "proyectos": "Sentiment Classifiers",
       "usuario_id": 1,
       "descripcion": "Proyecto de Data Science: para clasificar frases según su #sentimiento. La aplicación del proyecto se realizó con #python: primero en google colab entrené el modelo Word2Vec con el clasificador de textos Logistic Regression, además se clasifica con TextBlob y con SentimentIntensityAnalyzer",
       "img_proyecto": "https://i.imgur.com/FbpFecx.png",
@@ -556,7 +579,7 @@
     {
       "id": 1000,
       "fecha": "Julio 2023",
-      "proyectos": "DATA INSIDER",
+      "proyectos": "Data Insider",
       "usuario_id": 1,
       "descripcion": "Análisis de Forbes 2000.",
       "img_proyecto": "https://i.imgur.com/WKVy8sM.png",
@@ -598,7 +621,7 @@
     {
       "id": 4,
       "fecha": "Febrero 2022",
-      "proyectos": "HOTEL ALURA",
+      "proyectos": "Hotel alura",
       "usuario_id": 1,
       "descripcion": "Aplicacion para el registro de huespedes",
       "img_proyecto": "https://i.imgur.com/8mMt1zQ.jpg",
