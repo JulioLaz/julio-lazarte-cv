@@ -1,0 +1,94 @@
+{
+  "educacion": [
+    {
+      "id": 1,
+      "ende": "2024",
+      "imge": "https://i.imgur.com/uFyPLXv.png",
+      "citye": "Online",
+      "timee": "12 meses",
+      "starte": "2023",
+      "titlee": "Bootcamp Data Science",
+      "estadoe": "Cursando",
+      "schoole": "El profe Alejo",
+      "usuario_id": 1,
+      "url": "https://bootcampxperience.com/"
+    }
+  ],
+  "cursos": [
+    {
+      "id": 10,
+      "cursos": "Argentina Programa",
+      "img_curso": "https://i.imgur.com/59kehf7.png",
+      "usuario_id": 1,
+      "descripcion": "Argentina Programa tiene como objetivo adquirir los conocimientos necesarios para desarrollar una aplicación web full stack que deberá ser de arquitectura distribuida y contener un diseño de interfaz de usuario (front end) que muestre la información, una base de datos que almacene los datos antes mencionados y debe contar con las APIs necesarias para proveer a través de internet la información (back end)."
+    }
+  ],
+  "experiencia": [
+    {
+      "id": 10,
+      "ende": "Present",
+      "citye": "Tucumán, Argentina",
+      "cargoe": "Docente",
+      "starte": "2015",
+      "nombree": "Ministerio de Educación",
+      "usuario_id": 1,
+      "descripcione": "Profesor de Filosofía"
+    }
+  ],
+  "skill_social": [
+    {
+      "id": 1,
+      "imgurl": "https://i.imgur.com/P8MRKg7.png",
+      "nombre": "Colaboración",
+      "porcentaje": 90,
+      "usuario_id": 1
+    }
+  ],
+    "hard_andsskills": [
+    {
+      "id": 40,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/72px-Python.svg.png",
+      "nombre": "Python",
+      "porcentaje": 50,
+      "usuario_id": 1
+    }
+  ],
+  "idiomas": [
+    {
+      "id": 9,
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/300px-Flag_of_the_United_States.svg.png",
+      "nombre": "Ingles nivel A2",
+      "porcentaje": 60,
+      "usuario_id": 1
+    }
+  ],
+  "persona": [
+    {
+      "id": 1,
+      "email": "julioalbertolazarte00@gmail.com",
+      "email_00": "julioalazarte@yahoo.com",
+      "img": "https://avatars.githubusercontent.com/u/108642139?v=4",
+      "city": "Argentina, Tucumán",
+      "edad": "46 años",
+      "about_me": "Soy Julio Lazarte, científico de datos especializado en el análisis, visualización, machine learning, business intelligence. Mi objetivo es lograr insight que aporten valor a las necesidades de empresas, para optimizar recursos, reducir gastos, prevenir pérdidas, generar mayores ingresos económico.\nMi formación tiene distintos pilares, por un lado en ciencias exactas con ingeniería, y por otro lado con formación humanística con filosofía.\nAdemás de formarme como Full stack Developer, actualmente me estoy profesionalizando en Ciencias de Datos en donde encontré mi pasión.",
+      "title": "Profesor de Filosofía    &    Full Stack Developer Jr",
+      "nombre": "Julio Alberto",
+      "apellido": "Lazarte",
+      "title_about": "Sobre mi vida:"
+    }
+  ],
+  "proyectos": [
+    {
+      "id": 993,
+      "fecha": " Marzo 2024",
+      "proyectos": "Consumer Spending Prediction",
+      "usuario_id": 1,
+      "descripcion": "Proyecto de Data Science: desarrollo de un modelo de machine learning que predice con precisión cuánto gastará un usuario al visitar dicho sitio web.",
+      "img_proyecto": "https://data.bloggif.com/distant/user/store/9/7/6/9/295848bfdfd7c2bb07089c0974d69679.gif",
+      "url_proyecto": "https://github.com/JulioLaz/Consumer_Spending_Prediction_final",
+      "url_presentacion": "https://docs.google.com/document/d/e/2PACX-1vQ35-uD6_F9F_apec8sDyLvSKMTEFxOnUC3wNFZJrpp21OjvGcG_Zh5RENIZFHXsbrs379Sc6uesmyk/pub",
+      "presentacion_name": "Presentación",
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn, xgboost"
+    }
+  ]
+}

@@ -1,23 +1,24 @@
 .fixed {
   top: 58px;
   height: 72vh;
-  width: 50vw;
+  width: 55vw;
   border-radius: 0 10px 10px 0;
   background-color: rgba(234, 246, 246, 0.9);
-  left: 1rem;
+  /* left: 1rem; */
 }
 
 .carousel-indicators {
   position: absolute;
-  left: -145px;
+  left: -200px;
   top: 3rem;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 7rem;
+  width: 6rem;
   align-items: flex-end;
-  z-index: 200;;
+  z-index: 200;
+  margin-left:16% !important;
 }
 
 .box_shadow {
@@ -69,6 +70,7 @@
 }
 
 .card-carousel {
+  /* width: 100vw; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -305,13 +307,12 @@
 
 .head_title {
   display: flex;
+  /* background-color: #e9f4f0; */
   align-items: center;
   position: initial;
   z-index: 150;
   width: 100%;
   padding: 1rem 0;
-
-
 }
 
 .img_certificados {
@@ -375,7 +376,7 @@
 .about_me_space {
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .about_me_space_div {

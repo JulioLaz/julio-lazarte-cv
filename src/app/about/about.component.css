@@ -9,24 +9,12 @@
 .container {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(240, 248, 255,.95);
-  background-color: rgba(242, 247, 247, 0.95);
-
-  /* background-image: url('https://i.imgur.com/PlsIDeW.png'); */
-  /* background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.5; */
+  background-color: rgba(242, 247, 247, 0.75);
 }
 
 .opened {
   position: relative;
   top: 20px;
-  /* left: 1rem; */
   width: inherit;
   max-height: initial;
   height: 80vh;
@@ -35,14 +23,13 @@
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   z-index: 100;
-
 }
 
 .title {
   font-family: system-ui;
   text-align: center;
   margin: 0 0 10px;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.3rem;
   color: #323232;
   margin-top: 1.5rem;
@@ -112,7 +99,6 @@
 
 a {
   color: rgb(128,128,128);
-
   margin: 0 6px;
 }
 
@@ -133,7 +119,7 @@ a:hover {
 
 img {
   width: 70%;
-  margin-top: 5px;
+  margin-top: 1.5rem;
   border-radius: 10px 10px 0 0;
 }
 
@@ -147,15 +133,12 @@ img {
 
 }
 
-
 .caru {
   display: block;
-
 }
 
 .caru_active {
   display: none;
-
 }
 
 .wrapper {
@@ -176,7 +159,7 @@ img {
     width: inherit;
   }
   img{
-    width: 80%;
+    width: 250px;
   }
   .title{
     font-size: 1.5rem;
@@ -217,9 +200,10 @@ img {
     }
     .head_title {
       position:relative;
-      background-color: rgb(240, 248, 255) !important;
-      width: initial;
+      /* background-color: rgb(240, 248, 255) !important; */
+      width: 96% !important;
       align-items: center;
+      justify-content: center;
       z-index: 150;
     }
   }
@@ -239,10 +223,22 @@ img {
 
 @media (max-width: 600px) {
   .caru_active {
-width: 424px;
+width: 96%;
+padding-top: 1rem;
+/* width: 424px; */
 
-  }}
+  }
+  .head_title {
+    position:relative;
+    /* background-color: rgb(240, 248, 255) !important; */
+    width: 96% !important;
+    align-items: center;
 
+    /* justify-content: center; */
+    z-index: 150;
+  }
+
+}
 
 .btn_cv{
   border: 1px solid gray;
@@ -400,7 +396,7 @@ li{
   position: relative;
   width: 100%;
   height: 2rem; /* Ajusta la altura según tus necesidades */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .subtitle {
@@ -418,8 +414,18 @@ li{
 
 .subtitle.active {
   opacity: 1;
+  font-size: 1.8rem;
   /* transform: translateX(0); */
   transform: scale(1);
 }
 
-
+.qr{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: .8rem;
+}
+a{
+  cursor: pointer;
+}

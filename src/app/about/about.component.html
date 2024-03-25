@@ -4,9 +4,12 @@
       <div class="card_started">
 
         <div class="profile" *ngFor="let item of about">
-          <img src="{{item.img}}" alt="">
+          <img src="/assets/julio.gif" alt="foto personal">
+          <!-- <img src="{{item.img}}" alt="foto personal"> -->
 
-          <div class="title">{{item.nombre}} {{item.apellido}} </div>
+          <img class="name_banner" style="width: 280px;" src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=f77136&size=120&center=true&center=true&vCenter=true&width=1000&height=160&duration=3000&lines=Hi,+I'm+Julio">
+
+          <!-- <div class="title">{{item.nombre}} {{item.apellido}} </div> -->
           <div class="fs-2 m-1 fw-bold" translate="no">Data Scientist</div>
 
           <div class="subtitle-container m-3">
@@ -15,7 +18,7 @@
             </div>
           </div>
 
-          <div class="social m-2 mt-4">
+          <div class="social m-1">
             <a target="_blank" href="https://github.com/JulioLaz" style="font-size: 30px;"><span
                 class="fab fa-github"></span></a>
             <a target="_blank" href="https://www.linkedin.com/in/julio-lazarte-developer/">
@@ -30,12 +33,31 @@
                 </g>
               </svg>
             </a>
+            <a href="https://www.youtube.com/channel/UC0e27iTdQOx_cWnbppGaptA" target="_blank" style="font-size: 30px;">
+              <span class="fab fa-youtube"></span>
+              <!-- <img height="40px" src="https://user-images.githubusercontent.com/47686437/168548113-b3cd4206-3281-445b-b7c6-bc0a3251293d.png" /> -->
+            </a>
           </div>
 
-          <div class="m-3">
+          <div class="qr">
+            <div class="">
+              <img style="width: 80px;border-radius: 5px;margin: 0;" src="https://i.imgur.com/SsXk3TF.png" alt="QR cv web">
+              <p style="color: dimgray;">my email</p>
+            </div>
+            <div>
+              <a href="https://drive.google.com/file/d/1LT56VohRMZUIAy6vdsZsSuohk1bQiE0I/view?usp=sharing" target="_blank" style="font-size: 30px;">
+                <img style="width: 80px;border-radius: 5px;margin: 0;" src="https://i.imgur.com/6P4bPyk.png" alt="QR cv web">
+              </a>
+              <!-- <p style="color: dimgray;font-size: 8;">curriculum vitae</p> -->
+              <p style="color: dimgray;font-size: 6;padding-bottom: 5px;">CV click/scan</p>
+            </div>
+          </div>
+
+
+          <!-- <div class="m-3">
             <button class="btn btn_cv fw-bold" (click)="downloadPDF()"><i class="fa-solid fa-file-lines fs-5"></i> CV
               PDF</button>
-          </div>
+          </div> -->
 
 <!-- /////////////////////////////////////////////////// -->
 
