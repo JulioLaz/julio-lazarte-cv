@@ -3,11 +3,13 @@
     <div class="container opened ">
       <div class="card_started">
 
-        <div class="profile" *ngFor="let item of about">
+        <div class="profile" *ngFor="let item of about" >
+          <!-- <img src="https://i.imgur.com/A7w4qzX.png" alt="foto personal"> -->
           <img src="/assets/julio.gif" alt="foto personal">
           <!-- <img src="{{item.img}}" alt="foto personal"> -->
 
-          <img class="name_banner" style="width: 280px;" src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=f77136&size=120&center=true&center=true&vCenter=true&width=1000&height=160&duration=1800&lines=Hi,+I'm+Julio">
+          <img class="name_banner" style="width: 280px;"
+            src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=f77136&size=120&center=true&center=true&vCenter=true&width=1000&height=160&duration=1800&lines=Hi,+I'm+Julio">
 
           <!-- <div class="title">{{item.nombre}} {{item.apellido}} </div> -->
           <div class="fs-2 m-1 fw-bold" translate="no">Data Scientist</div>
@@ -41,17 +43,33 @@
 
           <div class="qr">
             <div class="">
-              <img style="width: 80px;border-radius: 5px;margin: 0;" src="https://i.imgur.com/SsXk3TF.png" alt="QR cv web">
+              <img style="width: 80px;border-radius: 5px;margin: 0;" src="https://i.imgur.com/SsXk3TF.png"
+                alt="QR cv web">
               <p style="color: dimgray;">my email</p>
             </div>
             <div>
               <!-- <a href="https://drive.google.com/file/d/1LT56VohRMZUIAy6vdsZsSuohk1bQiE0I/view?usp=sharing" target="_blank" style="font-size: 30px;"> -->
-              <a href="https://www.canva.com/design/DAGAi2U6CTU/i691_HhOWLMZKr9dhr_BnQ/view?utm_content=DAGAi2U6CTU&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" style="font-size: 30px;">
-                <img style="width: 80px;border-radius: 5px;margin: 0;" src="https://i.imgur.com/YwjASyi.png" alt="QR cv web">
+              <a href="https://www.canva.com/design/DAGAi2U6CTU/i691_HhOWLMZKr9dhr_BnQ/view?utm_content=DAGAi2U6CTU&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                target="_blank" style="font-size: 30px;">
+                <img style="width: 80px;border-radius: 5px;margin: 0;" src="https://i.imgur.com/YwjASyi.png"
+                  alt="QR cv web">
                 <!-- <img style="width: 80px;border-radius: 5px;margin: 0;" src="https://i.imgur.com/6P4bPyk.png" alt="QR cv web"> -->
               </a>
               <!-- <p style="color: dimgray;font-size: 8;">curriculum vitae</p> -->
               <p style="color: dimgray;font-size: 6;padding-bottom: 5px;">CV click/scan</p>
+            </div>
+          </div>
+
+          <!-- <div class="counter">
+            <p>{{ count }}</p>
+          </div> -->
+
+          <div class="caru_active frases" style="padding: 5px;">
+            <div class="" *ngFor="let data of frase">
+              <div class="" *ngIf="data.id === count" @fadeIn>
+                <p class="fs-6">{{data.frases}}</p>
+                <p class="pt-1 fs-6" style="text-align: end;">Autor: <i>"{{data.autor}}"</i></p>
+              </div>
             </div>
           </div>
 
@@ -61,9 +79,9 @@
               PDF</button>
           </div> -->
 
-<!-- /////////////////////////////////////////////////// -->
+          <!-- /////////////////////////////////////////////////// -->
 
-<!-- /////////////////////////////////////////////////// -->
+          <!-- /////////////////////////////////////////////////// -->
 
 
         </div>

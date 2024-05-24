@@ -17,7 +17,7 @@
   top: 20px;
   width: inherit;
   max-height: initial;
-  height: 80vh;
+  height: 81vh;
   margin: 0;
   padding: 0;
   border-radius: 10px;
@@ -119,8 +119,10 @@ a:hover {
 
 img {
   width: 70%;
+  /* width: 80%; */
   margin-top: 1.5rem;
   border-radius: 10px 10px 0 0;
+  border-radius: 10%;
 }
 
 .linkedin-logo circle {
@@ -157,6 +159,7 @@ img {
     justify-content: center;
     margin: 1rem;
     width: inherit;
+    height: 87vh;
   }
   img{
     width: 250px;
@@ -429,3 +432,11 @@ li{
 a{
   cursor: pointer;
 }
+
+.frases{
+  border: none;
+  /* border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 10px; */
+}
+

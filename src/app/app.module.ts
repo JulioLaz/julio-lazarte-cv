@@ -18,6 +18,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { HighlightButtonDirective } from './highlight-button.directive';
 import { CvPdfComponent } from './cv-pdf/cv-pdf.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +41,9 @@ import { AboutMeComponent } from './about-me/about-me.component';
     NgbModule,
     HttpClientModule,
     RoundProgressModule,
-    FormsModule],
+    FormsModule,
+    BrowserAnimationsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

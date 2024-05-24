@@ -221,7 +221,7 @@
   "frases": [
     {
       "id": 1,
-      "autor": "Albert Einstein.",
+      "autor": "Albert Einstein",
       "frases": "\"Todo aquello que el hombre ignora no existe para él. Por eso el universo de cada uno se resume al tamaño de su saber.\"",
       "seccion_id": 1,
       "usuario_id": 1
@@ -264,35 +264,57 @@
   ],
   "skill_social": [
     {
-      "id": 1,
-      "imgurl": "https://i.imgur.com/P8MRKg7.png",
-      "nombre": "Colaboración",
+      "id": 200,
+      "imgurl": "https://i.imgur.com/QIGflwq.png",
+      "nombre": "Storytelling",
       "porcentaje": 90,
       "usuario_id": 1
     },
     {
-      "id": 2,
-      "imgurl": "https://i.imgur.com/QIGflwq.png",
-      "nombre": "Storytelling",
-      "porcentaje": 70,
+      "id": 97,
+      "imgurl": "https://i.imgur.com/VVpTKs9.png",
+      "imgurl_0": "https://i.imgur.com/N5ete0Y.png",
+      "nombre": "Integrity",
+      "porcentaje": 100,
       "usuario_id": 1
     },
     {
-      "id": 3,
+      "id": 98,
+      "imgurl": "https://i.imgur.com/22thVOQ.png",
+      "nombre": "Empathy",
+      "porcentaje": 90,
+      "usuario_id": 1
+    },
+    {
+      "id": 99,
+      "imgurl": "https://i.imgur.com/P8MRKg7.png",
+      "nombre": "Collaboration",
+      "porcentaje": 90,
+      "usuario_id": 1
+    },
+    {
+      "id": 100,
+      "imgurl": "https://i.imgur.com/zixUkG2.png",
+      "nombre": "Adaptability",
+      "porcentaje": 80,
+      "usuario_id": 1
+    },
+    {
+      "id": 300,
       "imgurl": "https://i.imgur.com/v0L8oBi.png",
       "nombre": "Proactividad",
       "porcentaje":90,
       "usuario_id": 1
     },
     {
-      "id": 4,
+      "id": 400,
       "imgurl": "https://i.imgur.com/ULG6VDA.png",
       "nombre": "Flexibilidad",
       "porcentaje": 80,
       "usuario_id": 1
     },
     {
-      "id": 4,
+      "id": 500,
       "imgurl": "https://i.imgur.com/4TZHNqA.png",
       "nombre": "Leadership",
       "porcentaje": 80,
@@ -514,7 +536,8 @@
       "project_type":"Data Science project",
       "descripcion": "Análisis del COVID19 entre los países más afectados comparandolos con Argentina: Top 64 en tasa de letalidad y top 10 en tasa de mortalidad.",
       "descripcion_00": "Proyecto de Data Science: Análisis del COVID19 entre los países más afectados comparandolos con Argentina. Slides: PowerBI",
-      "img_proyecto": "https://i.imgur.com/2wsPt88.png",
+      "img_proyecto": "https://i.imgur.com/eOYpgdw.gif",
+      "img_proyecto_01": "https://i.imgur.com/2wsPt88.png",
       "img_proyecto_00": "https://data.bloggif.com/distant/user/store/1/3/d/d/a93fe7f9f3d81c483092bb6f91a5dd31.gif",
       "url_proyecto": "https://github.com/JulioLaz/covid19_analytics",
       "url_presentacion": "https://drive.google.com/file/d/1ziTzsNIa5MGtEQQSudXgdZwed3eyiPLQ/view?usp=sharing",
