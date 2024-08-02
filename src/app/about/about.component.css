@@ -1,7 +1,7 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
 .about {
-  height: 100vh;
+  height: 81vh;
   display: flex;
   justify-content: center;
 }
@@ -17,7 +17,7 @@
   top: 20px;
   width: inherit;
   max-height: initial;
-  height: 81vh;
+  /* height: 81vh; */
   margin: 0;
   padding: 0;
   border-radius: 10px;
@@ -159,7 +159,7 @@ img {
     justify-content: center;
     margin: 1rem;
     width: inherit;
-    height: 87vh;
+    height: 78vh;
   }
   img{
     width: 250px;
@@ -440,3 +440,43 @@ a{
   margin-top: 10px; */
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.main-image {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; /* Ajusta este valor según necesites */
+}
+
+.pulse {
+  width: 50px;
+  /* height: 50px; */
+  background-color: #3498db;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(.9);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(.9);
+    opacity: 1;
+  }
+}

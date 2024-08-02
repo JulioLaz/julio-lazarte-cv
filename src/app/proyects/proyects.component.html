@@ -14,14 +14,18 @@
         <h5 class="card-title text-center w-100 " translate="no">{{item.proyectos}}</h5>
         <div class="gradient-line m-2"></div>
 
-        <div class="btn_proyect m-2 ">
-          <!-- <img src="{{item.img_proyecto}}" class="card-img-top w-100 rounded img-recortada" alt="img_proyecto" > -->
-          <!-- <a [href]="item.url_presentacion" target="blank" > -->
-          <!-- <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class=" rounded img-recortada" alt="img_proyecto"> -->
-          <!-- </a> -->
-          <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada"
-            alt="img_proyecto">
+        <!-- <div class="btn_proyect m-2 ">
+          <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada" alt="img_proyecto">
+          <img style="width: 100px;" src="https://i.imgur.com/VSoiCn5.png" alt="img best" class="">
+        </div> -->
 
+        <div class="btn_proyect m-2">
+          <div class="image-container">
+            <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada" alt="img_proyecto">
+            <a *ngIf="item.youtube" [href]="item.youtube" target="_blank" style="margin-left: 5px;">
+              <img *ngIf="item.best_project"  src="https://i.imgur.com/Z7wER10.png" alt="img best team" class="banner">
+            </a>
+          </div>
         </div>
 
         <div class="date_btn">

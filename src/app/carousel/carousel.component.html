@@ -7,12 +7,12 @@
       <app-about-me></app-about-me>
     </div>
 
-    <div class="carousel-item">
-      <app-education></app-education>
-    </div>
-
     <div class="carousel-item ">
       <app-proyects></app-proyects>
+    </div>
+
+    <div class="carousel-item">
+      <app-education></app-education>
     </div>
 
     <div class="carousel-item ">
@@ -46,19 +46,27 @@
     </div>
 
     <!-- btn 2 -->
-    <div appHighlightButton class="diapositivas_div fa_color_btn diapositivas_active">
+    <!-- <div appHighlightButton class="diapositivas_div fa_color_btn diapositivas_active">
       <p [ngClass]="{'active': slides === 1, 'pulse': slides === 1}" class="diapositivas_span" translate="no"><i
           class="fa_color_btn fa fa-solid fa-graduation-cap"></i>
         Education</p>
       <button id="primer" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide-to="1" aria-label="Slide 1" (click)="selectSlide(1)"></button>
+    </div> -->
+    <div appHighlightButton class="diapositivas_div fa_color_btn diapositivas_active">
+      <p [ngClass]="{'active': slides === 1, 'pulse': slides === 1}" class="diapositivas_span" translate="no"><i
+          class="fa_color_btn fa fa-solid fa-laptop"></i>
+        Projects</p>
+      <button id="primer" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1" aria-label="Slide 1" (click)="selectSlide(1)"></button>
     </div>
 
     <!-- btn 3 -->
+
     <div appHighlightButton class="diapositivas_div fa_color_btn diapositivas_active">
       <p [ngClass]="{'active': slides === 2, 'pulse': slides === 2}" class="diapositivas_span" translate="no"><i
-          class="fa_color_btn fa fa-solid fa-laptop"></i>
-        Projects</p>
+          class="fa_color_btn fa fa-solid fa-graduation-cap"></i>
+        Education</p>
       <button id="segundo" class="diapositivas_btn" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide-to="2" aria-label="Slide 2" (click)="selectSlide(2)"></button>
     </div>

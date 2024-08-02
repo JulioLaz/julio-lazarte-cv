@@ -473,10 +473,7 @@
       "img": "https://avatars.githubusercontent.com/u/108642139?v=4",
       "city": "Argentina, Tucumán",
       "edad": "46 años",
-      "about_me": "Soy Julio Lazarte, científico de datos especializado en el análisis, visualización, machine learning, business intelligence. Mi objetivo es lograr insight que aporten valor a las necesidades de empresas, para optimizar recursos, reducir gastos, prevenir pérdidas, generar mayores ingresos económico.\nMi formación tiene distintos pilares, por un lado en ciencias exactas con ingeniería, y por otro lado con formación humanística con filosofía.\nAdemás de formarme como Full stack Developer, actualmente me estoy profesionalizando en Ciencias de Datos en donde encontré mi pasión.",
-      "about_me_01": "En la Ciencia de Datos descubrí mi pasión, por lo que estoy especializándome en esta área (en especial MLOps). En el año 2019 inicié con programación y obtuve los títulos principalmente de full stack developer Jr. y luego de data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy Argentino.",
-      "about_me_02": "La ciencia es mi pasión. Mi vida es crecimiento intelectual y espiritual. La informatica es un universo ilimitado donde puedo desarrollarme libremente. Me esfuerzo en lograr un mundo ordenado, unido a personas que son empáticas al bien de todos.",
-      "about_me_03": "Soy Julio Lazarte, hace tres años comencé con programación y obtuve los títulos principalmente de full stack developer Jr. y actualmente completando data scientist Jr. , además de mi carrera de profesor de Filosofía desde los 23 años. Soy de Argentina, Tucumán. Mi enfoque actual es crear SPA con angular con diseño personalizado desde el frontend y mantener el control y la seguridad con el backend.",
+      "about_me": "Soy Julio Lazarte, científico de datos especializado en el análisis, visualización (Matplotlib, Seaborn, Power BI), machine learning (sklearn: clasificación, regresión, clustering), business intelligence. Mi objetivo es lograr insight que aporten valor a las necesidades de empresas, para optimizar recursos, reducir gastos, prevenir pérdidas, generar mayores ingresos económicos.\nMi formación tiene distintos pilares, por un lado en ciencias exactas con ingeniería, y por otro lado con formación humanística con filosofía.\nAdemás de formarme como Full stack Developer, actualmente me estoy profesionalizando en Ciencias de Datos en donde encontré mi pasión.",
       "title": "Profesor de Filosofía    &    Full Stack Developer Jr",
       "nombre": "Julio Alberto",
       "apellido": "Lazarte",
@@ -485,8 +482,38 @@
   ],
   "proyectos": [
     {
+      "id": 990,
+      "fecha": "Junio 2024",
+      "proyectos": "Movie Analysis",
+      "usuario_id": 1,
+      "project_type":"Data Science project",
+      "descripcion": "Insights de plataforma de streaming para impulsar su rendimiento y experiencia del cliente.",
+      "img_proyecto": "https://i.imgur.com/HqYU2bB.gif",
+      "url_proyecto": "https://github.com/JulioLaz/movie_analysis/blob/main/Movie_Analysis_JAL.ipynb",
+      "url_presentacion": "https://juliolazarte.my.canva.site/movie-analysis",
+      "presentacion_name": "Presentación",
+      "youtube":"",
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn",
+      "best_project":"False"
+    },
+    {
+      "id": 991,
+      "fecha": "Mayo 2024",
+      "proyectos": "Financial Fraud Detection",
+      "usuario_id": 1,
+      "project_type":"Data Science project",
+      "descripcion": "Modelo de machine learning que distingue de manera precisa (98%) entre transacciones legítimas y fraudulentas.",
+      "img_proyecto": "https://i.imgur.com/LKRIYin.gif",
+      "url_proyecto": "https://github.com/JulioLaz/financial_fraud_detection/blob/main/Financial_Fraud_Detection_JAL.ipynb",
+      "url_presentacion": "",
+      "presentacion_name": "Presentación",
+      "youtube":"",
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sklearn",
+      "best_project":"False"
+    },
+    {
       "id": 992,
-      "fecha": " Marzo 2024",
+      "fecha": "Abril 2024",
       "proyectos": "Store Sales Analysis",
       "usuario_id": 1,
       "project_type":"Data Science project",
@@ -497,7 +524,8 @@
       "url_presentacion": "https://drive.google.com/file/d/1WDNInmF-4GKMi5KTDLdd46hTsbgP4XHE/view?usp=sharing",
       "presentacion_name": "Presentación",
       "youtube":"https://www.youtube.com/watch?v=U-59cPSOn_8&t=122s",
-      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sqlite"
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn, sqlite",
+      "best_project":"True"
     },
     {
       "id": 993,
@@ -574,7 +602,9 @@
       "url_presentacion": "https://docs.google.com/presentation/d/e/2PACX-1vTVyOOyEXpsN9xW9KmHVzuWuZ2nSOoxz_6IW7dmUH-OjKOe5OJN9mPWWZBT-XGgAjoThdzCgBCI6Fqh/pub?start=false&loop=false&delayms=3000",
       "presentacion_name": "Presentación",
       "youtube":"https://www.youtube.com/watch?v=9QTmYNQD-ro",
-      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn"
+      "lenguajes": "Phyton: pandas, numpy, matplotlib, seaborn",
+      "best_project":"True"
+
     },
     {
       "id": 998,

@@ -535,3 +535,29 @@
   color:dimgray
 }
 
+.image-container {
+  position: relative;
+  display: inline-block; /* Asegura que el contenedor se ajuste al contenido */
+}
+
+.image-container .card-img-top {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+}
+
+.image-container .banner {
+  /* transform: rotate(30deg);  */
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 100px; /* Ajusta el ancho según tus necesidades */
+  animation: shake 0.5s infinite; /* Aplica la animación de sacudida */
+}
+
+@keyframes shake {
+  0% { transform: rotate(30deg); }
+  25% { transform: rotate(35deg); }
+  50% { transform: rotate(30deg); }
+  75% { transform: rotate(25deg); }
+  100% { transform: rotate(30deg); }
+}
+

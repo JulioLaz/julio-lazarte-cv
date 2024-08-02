@@ -30,7 +30,8 @@ export class CarouselComponent implements OnInit, OnDestroy {
         this.stopSlideAuto();
         this.slide = false;
       });
-    }
+    };
+    
   }
 
   ngOnDestroy(): void {

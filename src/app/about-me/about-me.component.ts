@@ -18,6 +18,10 @@ export class AboutMeComponent implements OnInit {
   city: string = '';
   email: string = '';
 
+  // about_mee: string = 'Hola; soy Julio Lazarte. Científico de datos; especializado en el análisis, visualización, machine learning, business intelligence.';
+  voices: SpeechSynthesisVoice[] = [];
+
+
   constructor(
     private datajsonService: DatajsonService,
     ) {
@@ -26,6 +30,22 @@ export class AboutMeComponent implements OnInit {
 
   ngOnInit(): void {
     this.getPerson();
+
+    // if ('speechSynthesis' in window) {
+    //   // Asegurarse de que las voces estén disponibles
+    //   window.speechSynthesis.onvoiceschanged = () => {
+    //     this.voices = window.speechSynthesis.getVoices();
+    //   };
+    //   // Obtener las voces inmediatamente si ya están disponibles
+    //   this.voices = window.speechSynthesis.getVoices();
+    // };
+    // setTimeout(() => {
+    //   const audio = new Audio();
+    //   audio.src = 'assets/saludo.mp3'; // Ruta del archivo MP3
+    //   audio.load(); // Carga el audio
+    //   audio.play();
+    // }, 3000);
+
   }
 
   getPerson(): void {
@@ -55,5 +75,22 @@ export class AboutMeComponent implements OnInit {
     this.edadNew = edadNew;
   }
 
+
+  // speakText(): void {
+  //   if ('speechSynthesis' in window) {
+  //     const speech = new SpeechSynthesisUtterance(this.about_mee);
+  //     speech.lang = 'es-ES'; // Ajusta el idioma según tus necesidades
+
+  //     // Selecciona una voz específica (opcional)
+  //     const selectedVoice = this.voices.find(voice => voice.lang === 'es-ES');
+  //     if (selectedVoice) {
+  //       speech.voice = selectedVoice;
+  //     }
+
+  //     window.speechSynthesis.speak(speech);
+  //   } else {
+  //     console.log('El navegador no soporta la síntesis de voz.');
+  //   }
+  // }
 }
 
