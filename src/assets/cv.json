@@ -482,6 +482,22 @@
   ],
   "proyectos": [
     {
+      "id": 989,
+      "fecha": "Junio 2024",
+      "proyectos": "Bashboard",
+      "usuario_id": 1,
+      "project_type":"Data Science project",
+      "descripcion": "Insights de plataforma de streaming para impulsar su rendimiento y experiencia del cliente.",
+      "img_proyecto": "https://i.imgur.com/hD2uFzA.gif",
+      "url_proyecto": "https://github.com/JulioLaz/dashboard_store_sale/blob/main/dashboard.py",
+      "url_presentacion": "https://dashboard-sales-brasil.streamlit.app/",
+      "presentacion_name": "Presentación",
+      "youtube":"",
+      "lenguajes": "Phyton - Plotly - Streamlit",
+      "best_project":"False",
+      "app":"https://dashboard-sales-brasil.streamlit.app/"
+    },
+    {
       "id": 990,
       "fecha": "Junio 2024",
       "proyectos": "Movie Analysis",
