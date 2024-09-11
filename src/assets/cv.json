@@ -482,6 +482,22 @@
   ],
   "proyectos": [
     {
+      "id": 988,
+      "fecha": "August 2024",
+      "proyectos": "Movie Recommender",
+      "usuario_id": 1,
+      "project_type":"Machine Learning project",
+      "descripcion": "System that combines collaborative filtering (KNN) and content-based filtering (TF-IDF, cosine and Jaccard similarity) to provide personalized suggestions to users, in addition to general recommendations based on Bayesian averages.",
+      "img_proyecto": "https://i.imgur.com/sciekAA.gif",
+      "url_proyecto": "https://github.com/JulioLaz/Movie_Recommender_System_ML",
+      "url_presentacion": "https://juliolazarte.my.canva.site/cinemio-show-jal",
+      "presentacion_name": "Presentación",
+      "youtube":"",
+      "lenguajes": "Phyton/Streamlit",
+      "best_project":"False",
+      "app":"https://movierecommenderforyou.streamlit.app/"
+    },
+    {
       "id": 989,
       "fecha": "Junio 2024",
       "proyectos": "Bashboard",
