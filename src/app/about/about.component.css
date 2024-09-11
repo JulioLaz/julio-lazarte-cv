@@ -272,7 +272,7 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   z-index: -100000
   /* z-index: 100000 */  /* TRAER AL FRENTE */
 }
@@ -318,7 +318,7 @@ ul {
   left: 25%;
   width: 80px;
   height: 80px;
-  animation-delay: 4s;
+  animation-duration: 4s;
   animation-delay: 2s;
 }
 
@@ -387,12 +387,28 @@ li{
 @keyframes square {
   0% {
     transform: translateY(0);
+    opacity: 0; /* initial opacity is 0 */
+  }
+
+  10% {
+    opacity: 1; /* opacity increases to 100% at 10% of the animation */
   }
 
   100% {
-    transform: translateY(-1500px) rotate(750deg);
+    transform: translateY(-1300px) rotate(750deg);
+    opacity: 1; /* maintain 100% opacity until the end of the animation */
   }
 }
+/* @keyframes square {
+  0% {
+    transform: translateY(0);
+    transform: opacity(0);
+  }
+
+  100% {
+    transform: translateY(-1300px) rotate(750deg);
+  }
+} */
 
 
 .subtitle-container {
