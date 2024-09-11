@@ -75,6 +75,9 @@ export class AboutMeComponent implements OnInit {
     this.edadNew = edadNew;
   }
 
+  formatAboutMe(text: string): string {
+    return text.replace(/\n/g, '<br>');
+  }
 
   // speakText(): void {
   //   if ('speechSynthesis' in window) {

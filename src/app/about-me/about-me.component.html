@@ -9,10 +9,12 @@
 
 <div class="card-body card_about_me_head" style="display: flex;">
 
+  <!-- <div class="card-text p-2 about_me_head">
+    <div class="card-text box_shadow w-100 p-3" style="font-size: 1rem; text-align: justify;">{{about_me}}</div>
+  </div> -->
   <div class="card-text p-2 about_me_head">
-    <div class="card-text box_shadow w-100 p-3" style="font-size: 1rem;">{{about_me}}</div>
+    <div class="card-text box_shadow w-100 p-3" style="font-size: 1rem; text-align: justify;" [innerHTML]="formatAboutMe(about_me)"></div>
   </div>
-
 
 <!-- -------------------------- -->
 <!-- <button (click)="speakText()">Reproducir en Voz</button> -->
