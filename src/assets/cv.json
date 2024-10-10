@@ -148,7 +148,17 @@
   ],
   "experiencia": [
     {
-      "id": 1,
+      "id": 8,
+      "ende": "Present",
+      "citye": "Online",
+      "cargoe": "Coordinador",
+      "starte": "2024",
+      "nombree": "BX - Bootcamp Experience",
+      "usuario_id": 1,
+      "descripcione": "Conformar, orientar y guiar a los equipos de trabajo. Análisis de participación de miembros."
+    },
+    {
+      "id": 9,
       "ende": "2024",
       "citye": "Online",
       "cargoe": "Latam Helper",
