@@ -9,7 +9,7 @@
       "starte": "2023",
       "titlee": "Bootcamp Data Science",
       "estadoe": "Cursando",
-      "schoole": "El profe Alejo",
+      "schoole": "BX Bootcamp-Xperience",
       "usuario_id": 1,
       "url": "https://bootcampxperience.com/"
     },
@@ -492,6 +492,22 @@
     }
   ],
   "proyectos": [
+    {
+      "id": 987,
+      "fecha": "November 2024",
+      "proyectos": "Sentiment classifier",
+      "usuario_id": 1,
+      "project_type":"MLOps",
+      "descripcion": "App that analyzes the sentiment of comments. Model: SGDClassifier whit tfidfVectorizer & API Gemini. Frontend: Flask, Tailwind CSS & Plotly",
+      "img_proyecto": "https://i.imgur.com/JeSH8qd.gif",
+      "url_proyecto": "https://github.com/JulioLaz/analyzer_review_food",
+      "url_presentacion": "https://github.com/JulioLaz/analyzer_review_food/blob/main/README.md",
+      "presentacion_name": "Presentación",
+      "youtube":"",
+      "lenguajes": "MLOps: deploy in railway.com - Phyton/flask",
+      "best_project":"False",
+      "app":"https://analyzerreviewfood-production.up.railway.app/"
+    },
     {
       "id": 988,
       "fecha": "August 2024",
