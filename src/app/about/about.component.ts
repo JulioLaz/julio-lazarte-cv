@@ -17,7 +17,8 @@ import { trigger, transition, style, animate } from '@angular/animations';
 })
 export class AboutComponent implements OnInit, OnDestroy {
   // CARGA CV
-  url_cv: string = 'https://drive.google.com/file/d/1VkTsIZTLryoLo8zPcPhYfbSIhMg4_CdQ/view?usp=sharing' //CARGAR URL DEL CV
+  url_cv: string = 'https://drive.google.com/file/d/1rupfvNxTMPAfGeKAgvwh8MeQvIvEjHsT/view?usp=sharing' //CARGAR URL DEL CV
+  // url_cv: string = 'https://drive.google.com/file/d/1VkTsIZTLryoLo8zPcPhYfbSIhMg4_CdQ/view?usp=sharing' //CARGAR URL DEL CV
   // url_cv: string = 'https://drive.google.com/file/d/1fka1HfzfFNNg4zO1zuDUcxxPf1jnyGhR/view?usp=sharing' //CARGAR URL DEL CV
   // url_cv: string = 'https://docs.google.com/document/d/1WT_aBM08pkp3aNYfPmTjxrcojOnu_qFk/edit?usp=sharing&ouid=102564936615803527081&rtpof=true&sd=true' //CARGAR URL DEL CV
   // url_cv: string = 'https://www.canva.com/design/DAGGR3mZ_l8/U0kg_BqC4KPDorkjAVr6rg/edit?utm_content=DAGGR3mZ_l8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' //CARGAR URL DEL CV
