@@ -496,3 +496,198 @@ a{
     opacity: 1;
   }
 }
+
+
+/* ###################################################### */
+
+
+/* ============================================
+   ESTILOS PARA CONTROL DE VOZ MEJORADO
+   ============================================ */
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Botón de control de voz */
+.voice-control-btn {
+  position: relative;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  overflow: hidden;
+}
+
+.voice-control-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+.voice-control-btn:active {
+  transform: translateY(0);
+}
+
+.voice-control-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Icono del botón */
+.voice-control-btn i {
+  color: white;
+  font-size: 18px;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+/* Estado cuando está reproduciendo */
+.voice-control-btn.speaking {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  animation: pulse-speaking 2s infinite;
+}
+
+.voice-control-btn.speaking i {
+  animation: bounce 1s infinite;
+}
+
+/* Indicador de estado */
+.status-indicator {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #4CAF50;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.status-indicator.active {
+  opacity: 1;
+  animation: blink 1.5s infinite;
+}
+
+/* Animaciones */
+@keyframes pulse-speaking {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(255, 107, 107, 0);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-3px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0.3;
+  }
+}
+
+/* Información de voz */
+.voice-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.speaking-indicator {
+  color: #ff6b6b;
+  font-weight: bold;
+  animation: fade-in-out 2s infinite;
+}
+
+@keyframes fade-in-out {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .voice-control-btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .voice-control-btn i {
+    font-size: 16px;
+  }
+}
+
+/* Estados adicionales para diferentes navegadores */
+.voice-control-btn.available {
+  cursor: pointer;
+}
+
+.voice-control-btn:not(.available) {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+.voice-control-btn:not(.available):hover {
+  transform: none;
+  box-shadow: 0 4px 15px rgba(108, 117, 125, 0.3);
+}
+
+/* Tooltip personalizado */
+.voice-control-btn[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  animation: tooltip-fade-in 0.3s ease;
+}
+
+@keyframes tooltip-fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
