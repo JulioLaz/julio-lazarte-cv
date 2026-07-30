@@ -571,7 +571,7 @@
       "proyectos": "Financial Fraud Detection",
       "usuario_id": 1,
       "project_type":"Data Science project",
-      "descripcion": "Modelo de machine learning que distingue de manera precisa (98%) entre transacciones legítimas y fraudulentas.",
+      "descripcion": "Modelos de machine learning que distinguen entre transacciones legítimas y fraudulentas. Análisis de métricas",
       "img_proyecto": "https://i.imgur.com/LKRIYin.gif",
       "url_proyecto": "https://github.com/JulioLaz/financial_fraud_detection/blob/main/Financial_Fraud_Detection_JAL.ipynb",
       "url_presentacion": "",
