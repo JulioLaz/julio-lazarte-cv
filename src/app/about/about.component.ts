@@ -137,7 +137,8 @@ export class AboutComponent implements OnInit, OnDestroy {
   qualities = ['Empático', 'Íntegro', 'Proactivo', 'Comunicador', 'Motivador', 'Colaborador', 'Adaptable', 'Líder'];
 
   // Textos para síntesis de voz
-  about_me: string = 'Hola, soy Julio Lazarte. Científico de datos especializado en análisis, visualización, machine learning y business intelligence.';
+  about_me: string = 'Hola, soy Julio Lazarte. Mi especialidad es transformar datos complejos en decisiones estratégicas que impulsan el crecimiento y la rentabilidad. Como Data Scientist, he ayudado a empresas a optimizar presupuestos, mejorar la gestión de stock, realizar compras inteligentes y reducir costos, descubriendo a la vez valiosas oportunidades de negocio. Mi diferencial: combino el rigor científico con una visión estratégica, haciendo que el impacto sea tangible a través de dashboards interactivos que convierten los datos en resultados visibles.';
+  // about_me: string = 'Hola, soy Julio Lazarte. Científico de datos especializado en análisis, visualización, machine learning y business intelligence.';
   text_02: string = 'Mi objetivo es lograr insights que aporten valor a las necesidades de empresas, para optimizar recursos, reducir gastos, prevenir pérdidas y generar mayores ingresos económicos.';
 
   // ============================================

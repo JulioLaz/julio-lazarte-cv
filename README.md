@@ -12,13 +12,13 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
 
 ## Deploy Firebase
 
-firebase deploy --only hosting
+firebase deploy --project cv-lazarte-julio
 
-## Agregar elementos al CV: cv.json
+Agregar elementos al CV: cv.json
 
 ## Cargar CV: copiar el vinculo del CV guardado en Drive como shared:
 
 Modificar el about.component.ts
 
-ejemplo: 
+ejemplo:
   url_cv:string='https://drive.google.com/file/d/1GhzX-xTdkEyp2ibiEqp1ui9pkoQut9by/view?usp=sharing'
