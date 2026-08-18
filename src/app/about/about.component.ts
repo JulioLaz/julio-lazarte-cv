@@ -129,7 +129,8 @@ export class AboutComponent implements OnInit, OnDestroy {
   // ============================================
   // CONFIGURACIÓN Y DATOS
   // ============================================
-  url_cv: string = 'https://drive.google.com/file/d/1IdNUfOE-ckN5V6ppPm4g5ehIkmKLyzXD/view?usp=sharing';
+  url_cv_es: string = 'https://drive.google.com/file/d/1Frn7GwkGdFJ_ph-keNaqzzoyv1a_Oaec/view?usp=sharing';
+  url_cv_en: string = 'https://drive.google.com/file/d/1iVRX_S08NqTAuqjFV8aljnttKvADRMWB/view?usp=sharing';
 
   about: any;
   frase: any;
@@ -385,10 +386,10 @@ export class AboutComponent implements OnInit, OnDestroy {
   // UTILIDADES
   // ============================================
 
-  downloadPDF(): void {
+  downloadPDF(lang: 'es' | 'en' = 'es'): void {
     console.log('📄 Descargando CV...');
     const link = document.createElement('a');
-    link.href = this.url_cv;
+    link.href = lang === 'en' ? this.url_cv_en : this.url_cv_es;
     link.target = '_blank';
     link.click();
   }

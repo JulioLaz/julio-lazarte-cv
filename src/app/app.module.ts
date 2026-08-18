@@ -19,6 +19,7 @@ import { HighlightButtonDirective } from './highlight-button.directive';
 import { CvPdfComponent } from './cv-pdf/cv-pdf.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ServiciosComponent } from './servicios/servicios.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HighlightButtonDirective,
     CvPdfComponent,
     AboutMeComponent,
+    ServiciosComponent,
   ],
   imports: [
     BrowserModule,

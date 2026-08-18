@@ -140,7 +140,7 @@
 
           <!-- Título principal con control de voz mejorado -->
           <div class="title-container fs-2 m-1 fw-bold" translate="no">
-            <span>Data Scientist</span>
+            <span>Data Scientist & BI Analyst</span>
 
             <!-- Botón de control de voz mejorado -->
             <button
@@ -168,6 +168,11 @@
             </div>
           </div>
 
+          <!-- Propuesta de valor -->
+          <p class="value-prop m-2 fs-6" style="text-align:center; max-width:480px;">
+            Ayudo a empresas a tomar mejores decisiones con datos: <strong>dashboards</strong>, <strong>machine learning</strong> y <strong>automatización</strong> de procesos.
+          </p>
+
           <!-- Enlaces sociales -->
           <div class="social m-1">
             <a target="_blank"
@@ -178,18 +183,10 @@
             </a>
 
             <a target="_blank"
-               href="https://www.linkedin.com/in/julio-lazarte-developer/"
-               title="LinkedIn Profile">
-              <svg class="linkedin-logo" id='linkedin' x="0px" y="0px" width="32px" height="32px"
-                   viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
-                <g>
-                  <circle cx="56.098" cy="56.097" r="56.098" />
-                  <g>
-                    <path style="fill:#F1F2F2;"
-                          d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118    c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715    c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662    C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967    c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969z     M27.865,83.739H41.27V43.409H27.865V83.739z" />
-                  </g>
-                </g>
-              </svg>
+               href="https://www.linkedin.com/in/juliodatascientist"
+               title="LinkedIn Profile"
+               style="font-size: 32px;">
+              <span class="fab fa-linkedin"></span>
             </a>
 
             <a href="https://www.youtube.com/channel/UC0e27iTdQOx_cWnbppGaptA"
@@ -200,14 +197,21 @@
             </a>
           </div>
 
-          <!-- Botón de CV -->
-          <div class="m-2">
+          <!-- Botones de CV -->
+          <div class="m-2 d-flex gap-2 justify-content-center flex-wrap">
             <a class="btn btn_cv fw-bold"
-               [href]="url_cv"
+               [href]="url_cv_es"
                target="_blank"
-               title="Descargar CV en PDF"
-               style="padding: .4rem 2.2rem">
-              <i class="fa-solid fa-file-lines fs-5"></i> CV PDF
+               title="Descargar CV en Español"
+               style="padding: .4rem 1.4rem">
+              <i class="fa-solid fa-file-lines fs-5"></i> CV Español
+            </a>
+            <a class="btn btn_cv fw-bold"
+               [href]="url_cv_en"
+               target="_blank"
+               title="Download CV in English"
+               style="padding: .4rem 1.4rem">
+              <i class="fa-solid fa-file-lines fs-5"></i> CV English
             </a>
           </div>
 
@@ -245,6 +249,10 @@
   <!-- Otros componentes del portfolio -->
   <div class="container caru_active">
     <app-about-me></app-about-me>
+  </div>
+
+  <div class="container caru_active">
+    <app-servicios></app-servicios>
   </div>
 
   <div class="container caru_active">

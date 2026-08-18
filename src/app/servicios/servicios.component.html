@@ -1,0 +1,28 @@
+<div class="head_title">
+  <i class="fa_color fa fa-solid fa-briefcase"></i>
+  <h2 class="title-with-shadow" translate="no">Services</h2>
+</div>
+
+<div class="card-carousel main_title">
+  <div class="line mb-2"></div>
+  <div class="card card_exp" *ngFor="let item of data_servicios">
+    <div class="card-body card_body">
+      <div style="width:100%; text-align:center;">
+        <i class="fa_color fa {{item.icono}} fs-1 mb-2"></i>
+        <h5 class="card-title text-center w-100 mt-2">{{item.titulo}}</h5>
+        <div class="gradient-line m-2"></div>
+        <p class="m-2 w-100 fs_description">{{item.descripcion}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cta-container text-center m-4">
+  <p class="fs-5 fw-bold mb-3">¿Tenés un proyecto de datos en mente? Hablemos.</p>
+  <a class="btn btn_cta fw-bold m-1" [href]="linkedin_url" target="_blank">
+    <span class="fab fa-linkedin fs-5"></span> LinkedIn
+  </a>
+  <a class="btn btn_cta fw-bold m-1" [href]="'mailto:' + persona_email + '?subject=Consulta%20de%20servicios%20BI%2FData%20Science'" target="_blank">
+    <i class="fa-solid fa-envelope fs-5"></i> Email
+  </a>
+</div>

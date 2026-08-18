@@ -494,11 +494,37 @@
       "city": "Argentina, Tucumán",
       "edad": "46 años",
       "about_me_00": "I'm a passionate Data Scientist with a robust academic background and hands-on experience in applying advanced analytics and machine learning techniques to solve complex business challenges across various domains. My approach is centered on delivering agile and flexible solutions that add tangible value to client needs.\nWith a strong foundation in statistical analysis, predictive modeling, and data visualization, I excel at transforming raw data into actionable insights. My expertise spans the entire data science lifecycle, from data collection and preprocessing to model development and deployment.\n\nKey strengths:\n💫 Proven track record in developing and implementing machine learning models\n💫 Proficient in Python, SQL, and data visualization tools\n💫 Strong problem-solving skills with a keen eye for detail\n💫 Excellent communicator, adept at translating technical concepts to non-technical stakeholders\n\nI thrive in collaborative environments and am known for my empathy, proactivity, and ability to work effectively in cross-functional teams. Continuously driven to expand my skill set and tackle new challenges, I am always eager to learn and adapt to emerging technologies and methodologies in the fast-paced field of data science.\n\nI invite you to explore my experience and projects. Let's connect and discuss how my skills can contribute to your organization's data-driven success!",
-      "about_me": "Soy Julio Lazarte, científico de datos especializado en el análisis, visualización (Looker Studio, Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Plotly), machine learning (sklearn: clasificación, regresión, clustering), business intelligence. Mi objetivo es lograr insight que aporten valor a las necesidades de empresas, para optimizar recursos, reducir gastos, prevenir pérdidas, generar mayores ingresos económicos.\nMi formación tiene distintos pilares, por un lado en ciencias exactas con ingeniería, y por otro lado con formación humanística con filosofía.\nAdemás de formarme como Full stack Developer, actualmente me estoy profesionalizando en Ciencias de Datos en donde encontré mi pasión.",
-      "title": "Profesor de Filosofía    &    Full Stack Developer Jr",
+      "about_me": "Soy Julio Lazarte, especialista en Business Intelligence y Data Science. Ayudo a empresas a tomar mejores decisiones con datos: diseño dashboards (Power BI, Looker Studio, Tableau, Streamlit), desarrollo modelos de Machine Learning (clasificación, regresión, clustering con Python y scikit-learn) y automatizo procesos para optimizar recursos, reducir costos y descubrir oportunidades de negocio.\nMi formación combina ciencias exactas (ingeniería) con pensamiento analítico y comunicación clara, lo que me permite traducir resultados técnicos en decisiones de negocio concretas.\nActualmente me sigo profesionalizando en Ciencias de Datos, el área donde encontré mi pasión.",
+      "title": "Data Scientist & BI Analyst",
       "nombre": "Julio Alberto",
       "apellido": "Lazarte",
       "title_about": "Sobre mi vida:"
+    }
+  ],
+  "servicios": [
+    {
+      "id": 1,
+      "titulo": "Dashboards & Business Intelligence",
+      "icono": "fa-chart-line",
+      "descripcion": "Diseño y desarrollo de dashboards interactivos (Power BI, Looker Studio, Tableau, Streamlit) para monitorear KPIs y tomar decisiones en tiempo real."
+    },
+    {
+      "id": 2,
+      "titulo": "Machine Learning & Predicción",
+      "icono": "fa-brain",
+      "descripcion": "Modelos de clasificación, regresión y clustering para predecir demanda, detectar fraude, segmentar clientes y anticipar riesgos."
+    },
+    {
+      "id": 3,
+      "titulo": "Automatización de Procesos",
+      "icono": "fa-robot",
+      "descripcion": "Scripts y automatizaciones que eliminan tareas repetitivas (reportes, scraping, notificaciones) para ahorrar tiempo y reducir errores manuales."
+    },
+    {
+      "id": 4,
+      "titulo": "Análisis de Datos",
+      "icono": "fa-magnifying-glass-chart",
+      "descripcion": "Limpieza, exploración y análisis estadístico de datos para descubrir oportunidades de negocio y prevenir pérdidas."
     }
   ],
   "proyectos": [
@@ -660,7 +686,7 @@
     {
       "id": 997,
       "fecha": "Noviembre 2023",
-      "proyectos": "Supermarker Sales Analysis",
+      "proyectos": "Supermarket Sales Analysis",
       "usuario_id": 1,
       "project_type":"Data Science project",
       "descripcion": "Analizo una cadena de supermercados que opera en Brasil obteniendo insights y visualizaciones sobre la venta de sus productos. Destaco el Estado de San Pablo y predigo un aumento de 18.25% en ventas",

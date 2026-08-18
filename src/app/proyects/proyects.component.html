@@ -6,24 +6,37 @@
 <div class="card-carousel main_title">
   <div class="line mb-2"></div>
 
-  <div class="card card_exp" *ngFor="let item of data_proyect">
+  <ng-container *ngFor="let item of featured_proyects">
+    <ng-container *ngTemplateOutlet="projectCard; context: { $implicit: item }"></ng-container>
+  </ng-container>
+</div>
+
+<div class="text-center m-3" *ngIf="archived_proyects.length">
+  <button class="btn btn-outline-secondary btn-sm" (click)="toggleArchived()" translate="no">
+    {{ showArchived ? 'Ocultar' : 'Ver' }} otros proyectos ({{archived_proyects.length}})
+  </button>
+</div>
+
+<div class="card-carousel main_title" *ngIf="showArchived">
+  <ng-container *ngFor="let item of archived_proyects">
+    <ng-container *ngTemplateOutlet="projectCard; context: { $implicit: item, archived: true }"></ng-container>
+  </ng-container>
+</div>
+
+<ng-template #projectCard let-item let-archived="archived">
+  <div class="card card_exp" [class.card_best]="isBest(item)" [class.card_archived]="archived">
     <div class="card-body card_body">
-      <!-- <div class="" style="width: 60%"> -->
       <div class="" style="width: 100%">
+        <span class="badge_best" *ngIf="isBest(item)">★ Featured</span>
         <h6 class="card-title text-center mt-4 pt-3 w-100 color_project_type" translate="no">{{item.project_type}}</h6>
         <h5 class="card-title text-center w-100 " translate="no">{{item.proyectos}}</h5>
         <div class="gradient-line m-2"></div>
-
-        <!-- <div class="btn_proyect m-2 ">
-          <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada" alt="img_proyecto">
-          <img style="width: 100px;" src="https://i.imgur.com/VSoiCn5.png" alt="img best" class="">
-        </div> -->
 
         <div class="btn_proyect m-2">
           <div class="image-container">
             <img *ngIf="item.img_proyecto" [src]="item.img_proyecto" class="card-img-top rounded img-recortada" alt="img_proyecto">
             <a *ngIf="item.youtube" [href]="item.youtube" target="_blank" style="margin-left: 5px;">
-              <img *ngIf="item.best_project"  src="https://i.imgur.com/Z7wER10.png" alt="img best team" class="banner">
+              <img *ngIf="isBest(item)" src="https://i.imgur.com/Z7wER10.png" alt="img best team" class="banner">
             </a>
           </div>
         </div>
@@ -39,7 +52,7 @@
             <button class="btn-outline-secondary btn-sm btn-clickme" style="margin-left: 5px;border:1px solid rgb(208, 207, 207) !important;padding: 2px;" translate="no">App</button>
           </a>
           <a *ngIf="item.youtube" [href]="item.youtube" target="_blank" style="margin-left: 5px;">
-            <svg height="36px" width="36px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="fill:#F61C0D;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"></path> </g> </g></svg>            <!-- <button class="btn-outline-secondary btn-sm btn-clickme" style="margin-left: 5px;border:1px solid rgb(208, 207, 207) !important;padding: 2px;" translate="no">App</button> -->
+            <svg height="36px" width="36px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="fill:#F61C0D;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"></path> </g> </g></svg>
           </a>
         </div>
 
@@ -53,4 +66,4 @@
       </div>
     </div>
   </div>
-</div>
+</ng-template>

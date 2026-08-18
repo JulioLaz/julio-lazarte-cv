@@ -525,7 +525,7 @@ export class CvPdfComponent implements OnInit {
               stack: [
                 {
                   image: await this.getBase64ImageFromURL(this.url_linkedin),
-                  link: 'https://www.linkedin.com/in/julio-lazarte-developer?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bhsvn0lM6QheFxNK9oS5aeA%3D%3D',
+                  link: 'https://www.linkedin.com/in/juliodatascientist',
                   width: '10%',
                   fit: [20, 20],
                   alignment: 'left',

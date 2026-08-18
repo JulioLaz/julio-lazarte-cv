@@ -81,7 +81,26 @@
   width: 45%;
   min-width: 350px;
   margin-top: 10px;
+  position: relative;
 }
+
+.btn_cta {
+  background-color: #56de5d;
+  color: #1a1a1a;
+  border: none;
+  padding: .5rem 1.5rem;
+  border-radius: 4px;
+  transition: opacity .2s ease-in-out;
+}
+.btn_cta:hover { opacity: .85; color: #1a1a1a; }
+
+.card_best { border: 2px solid #56de5d; }
+.badge_best {
+  position: absolute; top: .5rem; right: .5rem;
+  background-color: #56de5d; color: #1a1a1a;
+  font-size: .75rem; padding: .15rem .5rem; border-radius: 3px; font-weight: bold;
+}
+.card_archived { opacity: .75; }
 
 @media (max-width: 1400px) {
   .card-carousel {
