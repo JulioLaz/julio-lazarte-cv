@@ -1,3 +1,5 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 body {
   background: linear-gradient(to right, #57c57e, #3d6980);
   overflow-x:hidden;
